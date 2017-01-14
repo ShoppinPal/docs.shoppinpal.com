@@ -8,6 +8,6 @@ We decided to resolve the bandwidth issue by hosting private machines in the clo
 
 Configuring the cloud-box per person was still a four hour activity! We cut this down to minutes with terraform scripting.
 
-Some IDEs did a [poor job](../bug-in-webstorm-deployments.md) of syncing developer's local code to the cloud-box so we setup a recurring rsync which had a one-time setup cost.
+Some IDEs did a [poor job](../bug-in-webstorm-deployments.html) of syncing developer's local code to the cloud-box so we setup a recurring rsync which had a one-time setup cost.
 
 When we presented this solution to our developers who had struggled with adopting docker in the past, we received positive feedback. On our first day of adoption, we even discovered and resolved what would have become a dev-2-staging issue. It was bound to crop up late in the cycle and cause a crisis amongst developers and devops regarding product-readiness and now they found themselves working alongside to tackle issues quickly without any negative perceptions.
