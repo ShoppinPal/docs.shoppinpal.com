@@ -5,10 +5,15 @@ I work remotely so when I was presented with an opportunity to travel and work s
 We decided to resolve the bandwidth issue by hosting private machines in the cloud. Naturally, any container image downloads would be much faster for a machine sitting inside a datacenter. And the only stress on our bandwidth would be for the `ssh` session to the cloud-box which was minimal. Large and quickly scrolling logs could be problematic but they were manageable. Using solutions like `screen` or `mosh` further eased any concerns about `ssh` hang-ups which could kill our running containers.
 
 {% youtube %}https://www.youtube.com/watch?v=9bZkp7q19f0{% endyoutube %}
-TODO: 
 
 Configuring the cloud-box per person was still a four hour activity! We cut this down to minutes with terraform scripting.
 
 Some IDEs did a [poor job](../bug-in-webstorm-deployments.html) of syncing developer's local code to the cloud-box so we setup a recurring rsync which had a one-time setup cost.
 
 When we presented this solution to our developers who had struggled with adopting docker in the past, we received positive feedback. On our first day of adoption, we even discovered and resolved what would have become a dev-2-staging issue. It was bound to crop up late in the cycle and cause a crisis amongst developers and devops regarding product-readiness and now they found themselves working alongside to tackle issues quickly without any negative perceptions.
+
+### Author TODOs:
+- record a 5 min video where you get a digitalocean machine and set it up
+- record a 2 min video where you use a script to set it up
+- share the gist for the script for publication
+etc.
