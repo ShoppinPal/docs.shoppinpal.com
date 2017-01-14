@@ -1,5 +1,6 @@
 To start with a clean environment, run:
 ```
+$ mkdir -p ~/workspace
 $ cd ~/workspace
 $ rm -rf loopback-zero-to-hero
 ```
