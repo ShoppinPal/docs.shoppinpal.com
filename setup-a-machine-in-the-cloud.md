@@ -5,6 +5,7 @@ I work remotely so when I was presented with an opportunity to travel and work s
 We decided to resolve the bandwidth issue by hosting private machines in the cloud. Naturally, any container image downloads would be much faster for a machine sitting inside a datacenter. And the only stress on our bandwidth would be for the `ssh` session to the cloud-box which was minimal. Large and quickly scrolling logs could be problematic but they were manageable. Using solutions like `screen` or `mosh` further eased any concerns about `ssh` hang-ups which could kill our running containers.
 
 {% youtube %}https://www.youtube.com/watch?v=9bZkp7q19f0{% endyoutube %}
+TODO: 
 
 Configuring the cloud-box per person was still a four hour activity! We cut this down to minutes with terraform scripting.
 
