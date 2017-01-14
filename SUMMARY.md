@@ -3,9 +3,10 @@
 * [Introduction](README.md)
 * [1. Setup a machine in the cloud](setup-a-machine-in-the-cloud.md)
 * [2. The Ideal Workspace](the-ideal-workspace.md)
-* [3. The MEAN stack](mean-stack.md)
-* [4. NodeJS](nodejs.md)
-* [5. Loopback](loopback/README.md)
+* [3. The Browser](the-browser.md)
+* [4. The MEAN stack](mean-stack.md)
+* [5. NodeJS](nodejs.md)
+* [6. Loopback](loopback/README.md)
     * [Setup a loopback project](loopback/Setup-a-loopback-project-d15a.md)
     * [Lockdown](loopback/Lockdown-d961.md)
     * [Build a better mousetrap](loopback/Build-a-better-mousetrap-361f.md)
@@ -20,4 +21,5 @@
     * [Current User](loopback/Current-User-and-Remote-Methods-138f.md)
 * [Appendix](appendix.md)
     * [Bug in WebStorm deployments](bug-in-webstorm-deployments.md)
+
 
