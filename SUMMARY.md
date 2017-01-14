@@ -7,7 +7,7 @@
 * [4. NodeJS](nodejs.md)
 * [5. Loopback](loopback/README.md)
     * [Setup a loopback project](loopback/Setup-a-loopback-project-d15a.md)
-    * [Lockdown](Lockdown-d961.md)
+    * [Lockdown](loopback/Lockdown-d961.md)
     * [Build a better mousetrap](loopback/Build-a-better-mousetrap-361f.md)
     * [The abyss stares back](loopback/The-abyss-stares-back-c39a.md)
     * [Built-in models](loopback/Built-in-models-4610.md)
