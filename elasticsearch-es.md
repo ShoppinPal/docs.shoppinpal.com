@@ -1,9 +1,25 @@
 # ElasticSearch
 
+## Version Tools
+
+[esvm](https://www.npmjs.com/package/esvm) - Elasticsearch Version Manager is a command line application used for development to manage different versions of Elasticsearch. Like `nvm` is for NodeJS, similarly `esvm` is for ElasticSearch.
+
 ## Useful plugins
 
-* [ElasticSearch Inquisitor](https://github.com/polyfractal/elasticsearch-inquisitor)
+### Curated
+* [ES Head](https://github.com/mobz/elasticsearch-head) - simplest admin console for ES.
+* [ES Inquisitor](https://github.com/polyfractal/elasticsearch-inquisitor) helps you understand:
+    * how ES breaks down your text into tokens for storage, and
+    * your search into tokens for lookups.
     * Access it at: `<proto>//<host>:<port>/_plugin/inquisitor/#/analyzers`
+* [Sense](https://www.elastic.co/blog/found-sense-a-cool-json-aware-interface-to-elasticsearch) - An extension for the Chrome Browser. Very useful, you can find it in the chrome web store.
+
+### Hear-Say
+* [ReclineJS](http://reclinejs.com/)For building good UI on top of `CouchDB`.
+* [Approx](https://github.com/ptdavteam/elasticsearch-approx-plugin/) - to do approximate or exact distinct counts, and fast term lists
+* [Elastic Facets](https://github.com/bleskes/elasticfacets) - A set of facets and related tools for ElasticSearch.
+* [Elastic Hammer](https://github.com/andrewvc/elastic-hammer) - `Sense` would suffice in our opinion. The only additional merit we see, is that it renders images inline, when presenting search results.
+
 
 `TODO for Authors:` Need to create a docker-compose file with an entrypoint script that installs this plugin for readers to play around with the most appropriate version of ES. Plugins usually can't keep up with the lightning fast progress of ES.
 
