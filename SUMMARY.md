@@ -6,6 +6,7 @@
 * [3. The Browser](the-browser.md)
 * [4. The MEAN stack](mean-stack.md)
 * [5. NodeJS](nodejs.md)
+* [6. ElasticSearch](elasticsearch-es.md)
 * [6. Loopback](loopback/README.md)
     * [Setup a loopback project](loopback/Setup-a-loopback-project-d15a.md)
     * [Lockdown](loopback/Lockdown-d961.md)
@@ -21,5 +22,4 @@
     * [Current User](loopback/Current-User-and-Remote-Methods-138f.md)
 * [Appendix](appendix.md)
     * [Bug in WebStorm deployments](bug-in-webstorm-deployments.md)
-
 
