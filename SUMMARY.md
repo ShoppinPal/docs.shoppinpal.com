@@ -22,5 +22,5 @@
 * [7. ElasticSearch](elasticsearch-es.md)
 * [Appendix](appendix.md)
     * [Bug in WebStorm deployments](bug-in-webstorm-deployments.md)
-* [Scalable App Deployment with AWS](scalable-app-deployment-with-aws.md)
+    * [Scalable App Deployment with AWS](scalable-app-deployment-with-aws.md)
 
