@@ -2,6 +2,8 @@
 
 Let's say we have a web application named `MyApp` and we want to deploy it to AWS in a scalable fashion. How do we do it?
 
+### Walkthrough
+
 ![](/assets/aws_deployment_1.png)
 
 As described in above diagram the deployment architecture of AWS consist of following components:
@@ -12,18 +14,21 @@ As described in above diagram the deployment architecture of AWS consist of foll
     * Private-1b (Private subnet in AZ- 1b)
     * Public-1a  (Public subnet in AZ- 1a)
     * Public-1b (Public subnet in AZ- 1b)
+  *  `Private Subnet` - Outer services can not access the instance directly. The instances do not have a public IP. Whereas, the instances themselves can access the internet and any outer services via NAT Internet Gateway.
+  * `Public Subnet` - Outer Services can access such instances directly through their public IP.
+* Database Layer
+  * A single node of MongoDB instance will suffice for MyApp.
+  * It can be a Primary Node hosted in Private Subnet of VPC.
+  * A sample setup may look like:
+    * MongoDB - `PrimaryNode`
+      * Availability Zone: `ap-southeast-1a`
+      * Instance Size : M3.medium
+        * 1 vCPU
+        * 3.75GiB RAM
+        * 60GiB EBS Volume attached
 
-Where,
-Private Subnet = Outer services can not access instance directly. They do not have public IP. While Instances in Private subnet can access internet/outer services via NAT Internet Gateway.
-Public Subnet = Outer Services can directly access instances directly through their public IP.
-
-Database Layer
-Currently there exists a single node of MongoDB instance which is Primary Node hosted in Private Subnet of VPC.
-MongoDB  PrimaryNode is hosted in  AZ 	ap-southeast-1a
-Instance Size : M3.medium (1 vCPU, 3.75GiB RAM, 60GiB EBS Volume attached)
-
-TODO
-For H.A there should be one more DB instance in another AZ i.e 1b which is replication of PrimaryNode. But this is kept as option for Initially.
+### Aiming Higher
+For High Availability (HA) there should be one more DB instance in another AZ i.e 1b which is replication of PrimaryNode. But this is kept as option for Initially.
 
 MyApp NodeJS Application Layer
 
