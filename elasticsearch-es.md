@@ -35,7 +35,9 @@
     * https://www.found.no/foundation/fuzzy-search/
         * https://www.found.no/foundation/text-analysis-part-1/#using-ngrams-for-advanced-token-searches
         * https://www.found.no/foundation/text-analysis-part-2/
-* Auto-Suggester by ES: http://www.elasticsearch.org/guide/en/elasticsearch/reference/current/search-suggesters-completion.html
+* Autocomplete and various ways to get there:
+  * http://www.elasticsearch.org/guide/en/elasticsearch/reference/current/search-suggesters-completion.html
+  * https://www.elastic.co/guide/en/elasticsearch/guide/master/_index_time_search_as_you_type.html
 
 ### Rebuilding an index
 * Scan / [Scroll](http://www.elasticsearch.org/guide/en/elasticsearch/client/javascript-api/current/api-reference.html#api-scroll)
