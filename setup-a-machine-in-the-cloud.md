@@ -34,9 +34,10 @@ docker-compose --version
 6. At this point you have a powerful and scalable setup. We will put it to good use as we explore various exercises in this training guide.
 7. Let's do a small exercise to show off the power of this setup.
 8. Clone a sample github project and launch it:
+
     ```
-    git clone https://github.com/pulkitsinghal/loopback-context-sandbox && \
-    cd loopback-context-sandbox && \
+    git clone https://github.com/shoppinpal/loopback-mongo-sandbox && \
+    cd loopback-mongo-sandbox && \
     docker-compose up
     ````
 9. Browse to `http://<machine-ip>:3000/explorer`
