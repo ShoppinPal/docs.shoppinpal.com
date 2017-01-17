@@ -43,11 +43,21 @@ nvm install 0.10
 7. At this point you have a powerful and scalable setup. We will put it to good use as we explore various exercises in this training guide.
 8. Let's do a small exercise to show off the power of this setup.
 9. Clone a sample github project and launch it:
-    1. Clone It: `git clone https://github.com/shoppinpal/loopback-mongo-sandbox`
-    1. Step into the folder: `cd loopback-mongo-sandbox`
-    1. Install dependencies `npm install`
-    1. Bring up the app by mounting the local source code and dependencies into a docker container: `docker-compose up`
-10. Browse to `http://<machine-ip>:3000/explorer`
+
+    ```
+mkdir -p ~/dev && cd ~/dev && \
+git clone https://github.com/ShoppinPal/loopback-mongo-sandbox.git && \
+cd ~/dev/loopback-mongo-sandbox && \
+npm install && \
+docker-compose up
+    ```
+10. What did we just do?
+  1. Cloned a project.
+  1. Installed dependencies.
+  1. Finally the `docker-compose up` command:
+      1. launched the app by mounting the local source code and dependencies into a docker container,
+      2. and launched MongoDB as its database.
+11. Let's browse to `http://<machine-ip>:3000/explorer` to see a fully working REST~ful API!
 
 ## Challenges
 
