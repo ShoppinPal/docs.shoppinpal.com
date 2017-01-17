@@ -38,6 +38,7 @@ docker-compose --version
     ```
     git clone https://github.com/shoppinpal/loopback-mongo-sandbox && \
     cd loopback-mongo-sandbox && \
+    npm install && \
     docker-compose up
     ````
 9. Browse to `http://<machine-ip>:3000/explorer`
