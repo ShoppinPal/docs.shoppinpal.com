@@ -17,7 +17,7 @@
     * [Find roles for current user](loopback/Find-roles-for-current-user-87ba.md)
     * [Loopback Console](loopback/Loopback-Console-221d.md)
     * [Current User](loopback/Current-User-and-Remote-Methods-138f.md)
-* [3. The Frontend](the-browser.md)
+* [3. The Frontend](frontend.md)
     * [The Browser](the-browser.md)
 * [4. ElasticSearch](elasticsearch-es.md)
 * [Appendix](appendix.md)
