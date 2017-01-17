@@ -20,28 +20,34 @@ We decided to resolve the bandwidth issue by hosting private machines in the clo
 
     ```
 sudo apt-get update && \
-sudo apt-get install apt-transport-https ca-certificates && \
+sudo apt-get --assume-yes install apt-transport-https ca-certificates && \
 sudo apt-key adv --keyserver hkp://ha.pool.sks-keyservers.net:80 --recv-keys 58118E89F3A912897C070ADBF76221572C52609D  && \
 echo "deb https://apt.dockerproject.org/repo ubuntu-xenial main" | sudo tee /etc/apt/sources.list.d/docker.list && \
 sudo apt-get update && \
-sudo apt-get install mosh && \
-sudo apt-get install docker-engine && \
+sudo apt-get --assume-yes install mosh && \
+sudo apt-get --assume-yes install docker-engine && \
 sudo service docker start && \
 curl -L "https://github.com/docker/compose/releases/download/1.8.1/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose && \
 chmod +x /usr/local/bin/docker-compose && \
 docker-compose --version
     ```
-6. At this point you have a powerful and scalable setup. We will put it to good use as we explore various exercises in this training guide.
-7. Let's do a small exercise to show off the power of this setup.
-8. Clone a sample github project and launch it:
+6. Install `nvm` to manage NodeJS
 
     ```
-git clone https://github.com/shoppinpal/loopback-mongo-sandbox && \
-cd loopback-mongo-sandbox && \
-npm install && \
-docker-compose up
+sudo apt-get --assume-yes install build-essential libssl-dev && \
+curl -sL https://raw.githubusercontent.com/creationix/nvm/v0.31.0/install.sh -o install_nvm.sh && \
+bash install_nvm.sh && \
+source ~/.profile && \
+nvm install 0.10
     ```
-9. Browse to `http://<machine-ip>:3000/explorer`
+7. At this point you have a powerful and scalable setup. We will put it to good use as we explore various exercises in this training guide.
+8. Let's do a small exercise to show off the power of this setup.
+9. Clone a sample github project and launch it:
+    1. Clone It: `git clone https://github.com/shoppinpal/loopback-mongo-sandbox`
+    1. Step into the folder: `cd loopback-mongo-sandbox`
+    1. Install dependencies `npm install`
+    1. Bring up the app by mounting the local source code and dependencies into a docker container: `docker-compose up`
+10. Browse to `http://<machine-ip>:3000/explorer`
 
 ## Challenges
 
