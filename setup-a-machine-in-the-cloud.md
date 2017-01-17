@@ -61,9 +61,9 @@ docker-compose up
 
 ## Challenges
 
-Configuring the cloud-box per person is still a manual activity! We hope to cut this down to minutes with terraform scripting one day.
+Configuring the cloud-box per person is still a manual activity! We hope to cut this down to minutes with `terraform` scripting one day.
 
-Some IDEs did a [poor job](../bug-in-webstorm-deployments.html) of syncing developer's local code to the cloud-box so we setup a recurring rsync which had a one-time setup cost.
+Some IDEs do a [poor job](../bug-in-webstorm-deployments.html) of syncing developer's local code to the cloud-box so we setup a recurring rsync which had a one-time setup cost.
 
 ## How was it received?
 
