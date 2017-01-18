@@ -1,0 +1,52 @@
+# Setup a machine in the cloud
+
+## Setup
+
+{% youtube %}https://youtu.be/sY9o3TbkXVc{% endyoutube %}
+
+1. Login to DigitalOcean. You can use a personal account or request access to your company account.
+2. Provision a machine with docker pre-installed.
+3. Optionally, we recommend that you map your `<machine-ip>` to a friendly domain name. If you have a CloudFlare account, use it.
+4. Use `ssh` to login: `ssh root@<machine-ip>`
+5. Install `docker-compose` on your cloud box. You can copy-paste the following script, which is a multi-line command and it will "just work."
+
+    ```
+sudo apt-get update && \
+sudo apt-get --assume-yes install apt-transport-https ca-certificates && \
+sudo apt-key adv --keyserver hkp://ha.pool.sks-keyservers.net:80 --recv-keys 58118E89F3A912897C070ADBF76221572C52609D  && \
+echo "deb https://apt.dockerproject.org/repo ubuntu-xenial main" | sudo tee /etc/apt/sources.list.d/docker.list && \
+sudo apt-get update && \
+sudo apt-get --assume-yes install mosh && \
+sudo apt-get --assume-yes install docker-engine && \
+sudo service docker start && \
+curl -L "https://github.com/docker/compose/releases/download/1.8.1/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose && \
+chmod +x /usr/local/bin/docker-compose && \
+docker-compose --version
+    ```
+6. Install `nvm` to manage NodeJS
+
+    ```
+sudo apt-get --assume-yes install build-essential libssl-dev && \
+curl -sL https://raw.githubusercontent.com/creationix/nvm/v0.31.0/install.sh -o install_nvm.sh && \
+bash install_nvm.sh && \
+source ~/.profile && \
+nvm install 0.10
+    ```
+7. At this point you have a powerful and scalable setup. We will put it to good use as we explore various exercises in this training guide.
+8. Let's do a small exercise to show off the power of this setup.
+9. Clone a sample github project and launch it:
+
+    ```
+mkdir -p ~/dev && cd ~/dev && \
+git clone https://github.com/ShoppinPal/loopback-mongo-sandbox.git && \
+cd ~/dev/loopback-mongo-sandbox && \
+npm install && \
+docker-compose up
+    ```
+10. What did we just do?
+  1. Cloned a project.
+  1. Installed dependencies.
+  1. Finally the `docker-compose up` command:
+      1. launched the app by mounting the local source code and dependencies into a docker container,
+      2. and launched MongoDB as its database.
+11. Let's browse to `http://<machine-ip>:3000/explorer` to see a fully working REST~ful API!
