@@ -8,7 +8,10 @@ _**Note**: Steps are documented below the video_
 
 1. Login to DigitalOcean. You can use a personal account or request access to your company account.
 2. Provision a machine with docker pre-installed.
-3. Optionally, we recommend that you map your `<machine-ip>` to a friendly domain name. If you have a CloudFlare account, use it.
+3. Optionally, we recommend that you map your `<machine-ip>` to a friendly domain name like `<myName-cloud-box-1.domain.com>`
+    1. If you have a CloudFlare account, use it.
+    1. Configure cloudflare for DNS only. Bypass any HTTP related CDN.
+    1. This may take some time to take effect and will hopefully be ready for you to use by the time you finish rest of the steps.
 4. Use `ssh` to login: `ssh root@<machine-ip>`
 5. Install `docker-compose` on your cloud box. You can copy-paste the following script, which is a multi-line command and it will "just work."
 
@@ -52,3 +55,4 @@ docker-compose up
       1. launched the app by mounting the local source code and dependencies into a docker container,
       2. and launched MongoDB as its database.
 11. Let's browse to `http://<machine-ip>:3000/explorer` to see a fully working REST~ful API!
+    1. If you had setup a DNS record previously then you can also try: `http://<myName-cloud-box-1.domain.com>:3000/explorer` to see a fully working REST~ful API!
