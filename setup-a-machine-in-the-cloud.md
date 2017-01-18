@@ -8,5 +8,4 @@ I work remotely so when I was presented with an opportunity to travel and work s
 
 - record a 5 min video where you get a digitalocean machine and set it up
 - record a 2 min video where you use a script to set it up
-- share the gist for the script for publication
 etc.
