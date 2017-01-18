@@ -12,7 +12,7 @@ We decided to resolve the bandwidth issue by hosting private machines in the clo
 
 ## Setup
 
-{% youtube %}https://youtu.be/sY9o3TbkXVc{% endyoutube %
+{% youtube %}https://youtu.be/sY9o3TbkXVc{% endyoutube %}
 
 1. Login to DigitalOcean. You can use a personal account or request access to your company account.
 2. Provision a machine with docker pre-installed.
