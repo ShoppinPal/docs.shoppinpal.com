@@ -26,4 +26,4 @@
 * [Appendix](appendix.md)
     * [Bug in WebStorm deployments](bug-in-webstorm-deployments.md)
     * [Scalable App Deployment with AWS](scalable-app-deployment-with-aws.md)
-
+    * [Chrome Tips & Tricks](chrome-tips--tricks.md)
