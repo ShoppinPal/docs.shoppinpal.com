@@ -2,6 +2,12 @@
     "plugins": [
         "youtube",
         "googledocs",
-        "gitversion"
-    ]
+        "versions"
+    ],
+    "pluginsConfig": {
+        "versions": {
+            "type": "tags",
+            "includeFilepath": true
+        }
+    }
 }

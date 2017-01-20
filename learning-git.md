@@ -1,5 +1,4 @@
 # Learning Git
-{{ "Version " | gitShort }}
 
 ## Basics
 
