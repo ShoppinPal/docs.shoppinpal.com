@@ -19,6 +19,8 @@
 
 ## FAQs
 
+1. How can we update a `fork` with changes from its source?
+    * https://help.github.com/articles/fork-a-repo#pull-in-upstream-changes
 1. How can we view just the commits that touched a particular line in a file?
     * [Retrieve the commit log for a specific line in a file](http://stackoverflow.com/questions/8435343/retrieve-the-commit-log-for-a-specific-line-in-a-file)
 1. How to fix tabs, indentation and whitespaces without changing git history?
