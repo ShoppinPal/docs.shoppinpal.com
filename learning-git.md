@@ -24,3 +24,8 @@
 1. How to fix tabs, indentation and whitespaces without changing git history?
     * [Change styling (whitespace) without changing ownership/blame](http://stackoverflow.com/questions/4112410/git-change-styling-whitespace-without-changing-ownership-blame)
     * [Git commit that doesn't override original authors in git blame](http://stackoverflow.com/questions/3945382/git-commit-that-doesnt-override-original-authors-in-git-blame)
+1. How can we collect git statistics?
+    * http://stackoverflow.com/questions/1828874/generating-statistics-from-git-repository
+        * http://gitminer.com/
+        * http://code.google.com/p/gitinspector/
+1. tbd...
