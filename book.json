@@ -1,8 +1,7 @@
 {
     "plugins": [
         "youtube",
-        "googledocs",
-        "versions"
+        "googledocs"
     ],
     "pluginsConfig": {
         "versions": {
