@@ -5,7 +5,7 @@
 1. Start your training with the free course: [Try Git](https://try.github.io)
 1. It is important to understand the process in [this](http://nvie.com/posts/a-successful-git-branching-model/) article.
     * Memorizing the commands is not important because those are part of the UI in tools like [SourceTree](https://www.sourcetreeapp.com/) as clickable buttons.
-1. Watch this presentation by [Aquid](https://github.com/aquid)
+1. Watch this presentation on `Git Flow` by [Aquid](https://github.com/aquid)
     * https://docs.google.com/presentation/d/11gkl1nfHHU1UQnd1n6Z4IaWeKA8PniqMf3TRTbgwe6c/edit?usp=sharing
 1. Then move on to intermediate courses which require a paid subscription. There is a very good chance that your company already pays for it or could start paying for it. So quickly check with your reporting manager to make use of what's available.
     1. [Git Real](https://www.codeschool.com/courses/git-real)
