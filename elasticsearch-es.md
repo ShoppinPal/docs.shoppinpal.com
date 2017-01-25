@@ -40,6 +40,7 @@
 * Autocomplete and various ways to get there:
   * http://www.elasticsearch.org/guide/en/elasticsearch/reference/current/search-suggesters-completion.html
   * https://www.elastic.co/guide/en/elasticsearch/guide/master/_index_time_search_as_you_type.html
+  * Use [term suggester](https://www.elastic.co/guide/en/elasticsearch/reference/current/search-suggesters-term.html) - ask for closest match of a search term from the terms you have already indexed. It won't complete your text, but produce similar lookalikes from the terms present in ES.
 
 ### Rebuilding an index
 * Scan / [Scroll](http://www.elasticsearch.org/guide/en/elasticsearch/client/javascript-api/current/api-reference.html#api-scroll)
