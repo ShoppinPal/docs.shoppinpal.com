@@ -16,6 +16,7 @@
 
 ### Hear-Say
 * [ES GUI](https://github.com/jettro/elasticsearch-gui) - An angularJS client for elasticsearch as a plugin.
+* [Sensitive](https://github.com/gillyb/sensitive) - A native version of the `sense` plugin for elasticsearch
 * [ReclineJS](http://reclinejs.com/) - for building good UI on top of `CouchDB`.
 * [Approx](https://github.com/ptdavteam/elasticsearch-approx-plugin/) - to do approximate or exact distinct counts, and fast term lists
 * [Elastic Facets](https://github.com/bleskes/elasticfacets) - A set of facets and related tools for ElasticSearch.
