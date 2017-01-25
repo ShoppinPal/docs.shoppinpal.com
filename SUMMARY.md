@@ -29,4 +29,5 @@
   * [Chrome Tips & Tricks](chrome-tips--tricks.md)
   * [Learning Git](learning-git.md)
   * [Better Search with NGram](better-search-with-ngram.md)
+  * [NGram with Elasticsearch](ngram-with-elasticsearch.md)
 
