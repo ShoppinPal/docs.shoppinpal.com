@@ -2,13 +2,27 @@
 
 ## Better Search? What does it mean, better how?
 
-Let's say a user wants to search for: `gift ideas` in their notes but they accidently type `gist ideas`. One of the notes which should match as the search results has a title which contains `super cool gifts list` ... what now?
+Let's say a user wants to search for: `gift ideas` in their notes but they accidently type `gist ideas`. One of the notes which should match as a search result has the title which contains `super cool gifts list` ... what now?
 
-A poor search will fail for many reasons whereas a better search will find you the note that you're looking for, here's why:
+It means the search engine needs to be configured better and one way to do that is by using `nGram`.
 
-T B D...
+1. A well configured `nGram` tool, would break the word `gifts` from the original title, down into various combinations such as:
+```
+gi | if | ft
+gif | ift
+gift
+```
+and store it for matching when a search occurs.
 
-The same concept applies to a full text search (FTE) everywhere. Websites, blogs, eCommerce sites or personal notes.
+2. So even if users accidently used the word `gist` in their search, it would be broken down into:
+```
+gi | is | st
+gis | ist
+gist
+```
+and at least a partial match would exist between the many broken down tokens: `gi`
+
+3. The same concept applies to full-text search (FTE) anywhere: websites, blogs, eCommerce or personal notes.
 
 ## Understanding NGram visually
 
