@@ -15,7 +15,8 @@
 * [Sense](https://www.elastic.co/blog/found-sense-a-cool-json-aware-interface-to-elasticsearch) - An extension for the Chrome Browser. Very useful, you can find it in the chrome web store.
 
 ### Hear-Say
-* [ReclineJS](http://reclinejs.com/)For building good UI on top of `CouchDB`.
+* [ES GUI](https://github.com/jettro/elasticsearch-gui) - An angularJS client for elasticsearch as a plugin.
+* [ReclineJS](http://reclinejs.com/) - for building good UI on top of `CouchDB`.
 * [Approx](https://github.com/ptdavteam/elasticsearch-approx-plugin/) - to do approximate or exact distinct counts, and fast term lists
 * [Elastic Facets](https://github.com/bleskes/elasticfacets) - A set of facets and related tools for ElasticSearch.
 * [Elastic Hammer](https://github.com/andrewvc/elastic-hammer) - `Sense` would suffice in our opinion. The only additional merit we see, is that it renders images inline, when presenting search results.
