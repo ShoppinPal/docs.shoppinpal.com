@@ -50,5 +50,37 @@
    ```
 7. Start the service: `docker-compose up`
 8. Open a browser to view the two plugins running on ES:
-   1. http://<machine-ip>:9202/_plugin/head/
-   2. http://<machine-ip>:9202/_plugin/elasticsearch-inquisitor/
+   1. esHead - http://your-cloud-box-ip:9202/_plugin/head/
+   2. esInq - http://your-cloud-box-ip:9202/_plugin/elasticsearch-inquisitor/
+
+## Play Around
+
+1. Use the `Any Request` tab in `/_plugin/head/` to create an index with a custom analyzer for a 3 by 3 ngram:
+   ```
+   PUT testing_ngram_3_by_3
+   {
+     "settings": {
+       "analysis": {
+         "analyzer": {
+           "ngram_3_by_3": {
+             "tokenizer": "ngram_3_by_3"
+           }
+         },
+         "tokenizer": {
+             "ngram_3_by_3": {
+             "type": "ngram",
+             "min_gram": 3,
+             "max_gram": 3,
+             "token_chars": [
+               "letter",
+               "digit"
+             ]
+           }
+         }
+       }
+     }
+   }
+```
+2. Go to `/_plugin/elasticsearch-inquisitor/#/tokenizers` to see the `ngram_3_by_3` analyzer at the bottom of the page.
+   * click the checkbox and then use the top most input field to see how the analyzer breaks down the input into tokens
+   ![](/assets/ngram inquisitor.png)
