@@ -15,6 +15,11 @@ It is worth exploring these pre-existing repositories:
 ### Without CI
 
 1. Clone your pre-existing gitbook repo to your cloud-box
+   ```
+   cd ~/dev
+   git clone https://github.com/ShoppinPal/docs.shoppinpal.com
+   cd ~/dev/docs.shoppinpal.com
+   ```
 2. Add the following `docker-compose.yml` file at the cloned repo's root folder:
    ```
    version: '2'
@@ -45,6 +50,3 @@ It is worth exploring these pre-existing repositories:
 ### With CI
 
 1. TODO - @harshadyeola can add it here ...
-
-
-
