@@ -5,6 +5,7 @@
   * [Setup a machine in the cloud](setup-a-machine-in-the-cloud.md)
     * [Solution](solution.md)
     * [Setup](setup.md)
+    * [What's Remaining?](what's-remaining.md)
     * [Feedback](feedback.md)
   * [The Perfect Machine](the-perfect-machine.md)
 * [2. The Backend](loopback/README.md)
