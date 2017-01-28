@@ -32,3 +32,5 @@
   * [Better Search with NGram](better-search-with-ngram.md)
   * [NGram with Elasticsearch](ngram-with-elasticsearch.md)
   * [Host your own Gitbook](host-your-own-gitbook.md)
+  * [Gitbook Tips & Tricks](gitbook-tips-and-tricks.md)
+
