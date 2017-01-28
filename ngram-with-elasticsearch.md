@@ -1,6 +1,11 @@
 # NGram with Elasticsearch
 
 ## Setup a sandbox
+
+_**Note**: Steps are documented below the video_
+
+{% youtube %}https://youtu.be/vinrUb8vab8{% endyoutube %}
+
 1. Login to your [cloud-box](../setup-a-machine-in-the-cloud.html) over `ssh`
 2. Create a directory for running an elasticsearch sandbox:
    ```
