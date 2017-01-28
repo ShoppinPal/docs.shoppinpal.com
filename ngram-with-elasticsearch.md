@@ -10,7 +10,7 @@
    ```
    cd ~/dev/elasticsearch-sandbox
    ```
-4. Create a docker-compose.yml file to install and run elasticsearch:
+4. Create a `docker-compose.yml` file to install and run elasticsearch:
    ```
    ## Version Selection for compose file
    # https://docs.docker.com/compose/compose-file/#/versioning
@@ -24,7 +24,7 @@
         - ./docker-entrypoint-es2-plugins.sh:/apps/docker-entrypoint-es2-plugins.sh
        entrypoint: /apps/docker-entrypoint-es2-plugins.sh
    ```
-56. Create an entrypoint file to install useful plugins:
+5. Create an entrypoint file named `docker-entrypoint-es2-plugins.sh` to install useful plugins:
    ```
    #!/bin/bash
    # setting up prerequisites
