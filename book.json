@@ -1,12 +1,20 @@
 {
+    "gitbook": "3.2.2",
+    "title": "ShoppinPal Training",
     "plugins": [
         "youtube",
-        "googledocs"
+        "googledocs",
+        "editlink"
     ],
     "pluginsConfig": {
         "versions": {
             "type": "tags",
             "includeFilepath": true
+        },
+        "editlink": {
+          "base": "https://github.com/shoppinpal/docs.shoppinpal.com/edit/master",
+          "label": "Edit This Page",
+          "multilingual": false
         }
     }
 }
