@@ -16,13 +16,13 @@
    # https://docs.docker.com/compose/compose-file/#/versioning
    version: '2'
    services:
-   es_v2:
-    image: elasticsearch:2
-    ports:
-     - "9202:9200"
-    volumes:
-     - ./docker-entrypoint-es2-plugins.sh:/apps/docker-entrypoint-es2-plugins.sh
-    entrypoint: /apps/docker-entrypoint-es2-plugins.sh
+      es_v2:
+       image: elasticsearch:2
+       ports:
+        - "9202:9200"
+       volumes:
+        - ./docker-entrypoint-es2-plugins.sh:/apps/docker-entrypoint-es2-plugins.sh
+       entrypoint: /apps/docker-entrypoint-es2-plugins.sh
    ```
 56. Create an entrypoint file to install useful plugins:
    ```
