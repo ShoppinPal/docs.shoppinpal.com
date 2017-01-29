@@ -1,7 +1,5 @@
 # The Perfect Machine
 
-## For Developers
+The perfect machine should live up to the expectations of the people using it and let them accomplish each task with ease and refinement. Usage should be an absolute delight without breaking the bank.
 
-## For Designers
-
-1. High CPU - need large amounts of processing power for dealing with a large amount of layers in tools like photoshop
+Please read on ...

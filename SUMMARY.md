@@ -8,6 +8,8 @@
     * [What's Remaining?](what's-remaining.md)
     * [Feedback](feedback.md)
   * [The Perfect Machine](the-perfect-machine.md)
+    * [For Developers](the-perfect-machine/for-developers.md)
+    * [For Designers](the-perfect-machine/for-designers.md)
 * [2. The Backend](loopback/README.md)
   * [Setup a loopback project](loopback/Setup-a-loopback-project-d15a.md)
   * [Lockdown](loopback/Lockdown-d961.md)
