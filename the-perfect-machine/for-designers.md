@@ -10,4 +10,4 @@
     * 2.9GHz CPU
     * 16GB Memory (requires a customized model)
     * 256GB SSD
-    * roughly 2,000 USD
+    * roughly **2,000 USD**
