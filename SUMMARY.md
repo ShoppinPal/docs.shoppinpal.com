@@ -8,6 +8,7 @@
     * [What's Remaining?](what's-remaining.md)
     * [Feedback](feedback.md)
   * [The Perfect Machine](the-perfect-machine.md)
+    * [For Biz Team](the-perfect-machine/for-biz-team.md)
     * [For Developers](the-perfect-machine/for-developers.md)
     * [For Designers](the-perfect-machine/for-designers.md)
 * [2. The Backend](loopback/README.md)

@@ -14,5 +14,6 @@
     * 1.6GHz CPU
     * 8GB Memory
     * 256GB SSD
+    * roughly **1,200 USD**
     * This still might be just a tad too powerful!
     * Even with these models, we haven't been able to get some of our developers to see the light: "Always build and run in docker with the cloud-box."
