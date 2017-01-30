@@ -9,3 +9,4 @@ Best practices for resolving support incidents:
     * Otherwise tell the customer that it will take longer and inspect older logs ... this means gaining customer consent for a larger time window to get them any workarounds/fixes.
 5. if inspecting older logs is taking too long or is impossible to find data in time for the customer's needs ... then ask customer for permission to reproduce the issue live and inform them how it will change their staging/production data and what the cleanup steps (if any) may be
 6. always keep the customers appraised of the situation and if more time is required or the situation simply cannot move forward for sometime ... be honest and let them know.
+7. establish and share a predictable schedule or timetable when you will be **100% available** ... same goes for times where you may not be in front of a machine. Communicate this clearly to your customers and internal teams.
