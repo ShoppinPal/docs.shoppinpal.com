@@ -27,6 +27,8 @@
 * [3. The Frontend](frontend.md)
   * [The Browser](the-browser.md)
 * [4. ElasticSearch](elasticsearch-es.md)
+* [5. Promises](promises.md)
+  * [Nuances](promises/nuances.md)
 * [Appendix](appendix.md)
   * [Bug in WebStorm deployments](bug-in-webstorm-deployments.md)
   * [Scalable App Deployment with AWS](scalable-app-deployment-with-aws.md)
@@ -38,4 +40,6 @@
   * [Gitbook Tips & Tricks](gitbook-tips-and-tricks.md)
   * [How to handle support incidents](how-to-handle-support-incidents.md)
   * [Dev Resources](dev-resources.md)
+* [6. Chapter Six](chapter-six.md)
+* [7. Chapter seven](chapter-seven.md)
 
