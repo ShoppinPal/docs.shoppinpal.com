@@ -28,6 +28,11 @@
   * [The Browser](the-browser.md)
   * [Unit Testing](unit-testing.md)
 * [4. ElasticSearch](elasticsearch-es.md)
+* [5. Promises](promises.md)
+  * [What are Promises](promises/what-are-promises.md)
+  * [Promise Implementations](promises/promise-implementations.md)
+  * [Nuances](promises/nuances.md)
+  * [What should we use](promises/what-should-we-use.md)
 * [Appendix](appendix.md)
   * [Bug in WebStorm deployments](bug-in-webstorm-deployments.md)
   * [Scalable App Deployment with AWS](scalable-app-deployment-with-aws.md)
@@ -39,4 +44,6 @@
   * [Gitbook Tips & Tricks](gitbook-tips-and-tricks.md)
   * [How to handle support incidents](how-to-handle-support-incidents.md)
   * [Dev Resources](dev-resources.md)
+* [6. Chapter Six](chapter-six.md)
+* [7. Chapter seven](chapter-seven.md)
 
