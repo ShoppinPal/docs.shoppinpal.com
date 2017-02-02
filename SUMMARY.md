@@ -26,6 +26,7 @@
   * [Current User](loopback/Current-User-and-Remote-Methods-138f.md)
 * [3. The Frontend](frontend.md)
   * [The Browser](the-browser.md)
+  * [Unit Testing](unit-testing.md)
 * [4. ElasticSearch](elasticsearch-es.md)
 * [Appendix](appendix.md)
   * [Bug in WebStorm deployments](bug-in-webstorm-deployments.md)
