@@ -44,6 +44,4 @@
   * [Gitbook Tips & Tricks](gitbook-tips-and-tricks.md)
   * [How to handle support incidents](how-to-handle-support-incidents.md)
   * [Dev Resources](dev-resources.md)
-* [6. Chapter Six](chapter-six.md)
-* [7. Chapter seven](chapter-seven.md)
 
