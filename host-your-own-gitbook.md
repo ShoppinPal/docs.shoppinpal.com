@@ -50,3 +50,9 @@ It is worth exploring these pre-existing repositories:
 ### With CI
 
 1. TODO - @harshadyeola can add it here ...
+
+## Alternative Setup
+
+1. Clone your gitbook repo
+2. Use gitbook desktop editor to edit and save
+3. Use cmd line to push changes
