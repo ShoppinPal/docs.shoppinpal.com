@@ -11,6 +11,7 @@
     * [For Biz Team](the-perfect-machine/for-biz-team.md)
     * [For Developers](the-perfect-machine/for-developers.md)
     * [For Designers](the-perfect-machine/for-designers.md)
+* [Configuring Webstorm IDE For Code Deployment on Remote Host](configuring-webstorm-ide-for-code-deployment-on-remote-host.md)
 * [2. The Backend](loopback/README.md)
   * [Setup a loopback project](loopback/Setup-a-loopback-project-d15a.md)
   * [Lockdown](loopback/Lockdown-d961.md)
