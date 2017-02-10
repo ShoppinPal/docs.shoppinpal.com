@@ -1,5 +1,7 @@
 ## Configuring Webstorm IDE For Code Deployment on Remote Host
 
+![](/assets/WebStorm.jpg)
+
 
 
 We are continuously looking for improving our developers life by discovering new techniques which allow them to work in their most productive way.Today We will be looking at similar tool which allow developers to directly verify their changes on the server without worrying about version control terminologies like committing the code, pushing it in the git repository.
