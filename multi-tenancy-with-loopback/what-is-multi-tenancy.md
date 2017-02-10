@@ -6,9 +6,10 @@
 
 
 ###Industry Requirements
-1. User belonging to an organization can have different administrative roles and authorizations
-2. Organization should have one or more `admin-user` who can control and define access for other users in the organization.
-3. Organization may or may-not want their data to be shared with other organizations.
+1. User belonging to an organization can have different administrative roles and authorizations.
+2. Organization can have different hierarchal powers defined for various set of users. 
+3. Organization should have one or more `admin-user` who can control and define access for other users in the organization.
+4. Organization may or may-not want their data to be shared with other organizations.
 
 
 
