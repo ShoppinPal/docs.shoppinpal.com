@@ -6,6 +6,7 @@
     * [Solution](solution.md)
     * [Setup](setup.md)
     * [What's Remaining?](what's-remaining.md)
+    * [Configuring Webstorm IDE For Code Deployment on Remote Host](configuring-webstorm-ide-for-code-deployment-on-remote-host.md)
     * [Feedback](feedback.md)
   * [The Perfect Machine](the-perfect-machine.md)
     * [For Biz Team](the-perfect-machine/for-biz-team.md)
