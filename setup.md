@@ -2,7 +2,7 @@
 
 ## Setup
 
-_**Note**: Steps are documented below the video_
+_**Note**: Even without the video, you can learn all the crucial details from the steps that are documented below_
 
 {% youtube %}https://youtu.be/sY9o3TbkXVc{% endyoutube %}
 

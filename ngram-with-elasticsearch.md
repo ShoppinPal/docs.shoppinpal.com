@@ -2,7 +2,7 @@
 
 ## Setup a sandbox
 
-_**Note**: Steps are documented below the video_
+_**Note**: Even without the video, you can learn all the crucial details from the steps that are documented below_
 
 {% youtube %}https://youtu.be/vinrUb8vab8{% endyoutube %}
 
