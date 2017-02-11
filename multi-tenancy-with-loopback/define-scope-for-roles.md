@@ -24,6 +24,5 @@ You can create custom role through boot scripts. Here's an example for creating 
 var Role = app.models.Role;
 var RoleMapping = app.models.RoleMapping;
 
-
 ```
 
