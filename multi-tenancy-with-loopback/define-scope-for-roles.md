@@ -17,12 +17,31 @@ LoopBack provides the following built-in dynamic role
 `$everyone` - Everyone
 
 
-###Custom Role resolvers
+###Custom Role definition
 You can create custom role through boot scripts. Here's an example for creating custom role.
 
 ```
 var Role = app.models.Role;
 var RoleMapping = app.models.RoleMapping;
+
+Promise.resolve()
+.then(function () {
+    return Role.findOrCreate(
+        {where: {name: 'orgAdmin'}}, 
+        {
+            name: 'orgAdmin',
+            description: 'admin of the org'
+        }
+    );
+})
+.then(function () {
+    log.trace('Role created successfully');
+    return cb();
+})
+.catch(function (error) {
+    log.error('Error in creating roles', error);
+    return cb(error);
+});
 
 ```
 
