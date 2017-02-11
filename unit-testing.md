@@ -1,35 +1,42 @@
-# Unit Testing of Angular \(karma + jasmin\)
+# Unit Testing for Angular \(karma + jasmin\)
 
-TDD is essential part of any software development. I tell you a my experience why it is so important, I created a filter module for product just like amazon or flipkart have. I tested it well on my machine and it was working great, now it is the day of live demo to client. In live demo filter suddenly stopped working, it was doing nothing in staging env it was kind of embarrassing. The day after that I decided to write unit test for each every function that I wrote. As a developer I feel confident in my code to run, a developer must learn to love the feeling of having a water-tight app.
+TDD is an essential part of any software development cycle. Here's a story from my past which relates its importance:
+> I created a filter module for products just like amazon or flipkart have. I tested it well on my machine and it was working great. Then came the day of live demo to our client, where this filter suddenly stopped working! It was doing nothing in our staging env and it was kind of embarrassing.
 
-Apart from my stories lets start real example. You can follow [AngularUnitTestDemo](https://github.com/Mohammed-Aadil/AngularUnitTestDemo) on github or clone a local copy to begin with.
+The next day, I decided to create unit tests for each every function that I wrote. As developer we should feel confident in our code's ability to run well, therefore, we must learn to love the feeling of having a watertight app that comes with automated testing.
 
-## Moto behind this blog
+Apart from my stories let us start a real example. You can follow [AngularUnitTestDemo](https://github.com/Mohammed-Aadil/AngularUnitTestDemo) on github or clone a local copy to begin with.
 
-This blog contains fundamentals of angular unit testing that we are using in [Shoppinpal](/www.shoppinpal.com). It beginner guide for developer and tester on unit testing. At the end blog you would have sufficient knowledge for created simple unit testing in angularJS.
+## Motivation behind this blog
+
+This blog contains fundamentals of angular unit testing that we are using in [Shoppinpal](https://www.shoppinpal.com). It is a beginner's guide on unit testing for Developers and QA engineers. At the end of this blog, you should have sufficient knowledge for creating simple unit tests in AngularJS.
 
 ## How to write the test
 
-Everyone has same question the one who writing test for first time. You must break down your logic of your application to small chunks or unit and verify each chunks work perfectly and as desired. **In javascript the smallest individual chunk you can test are usually functions. The core feature in application must verified with accompanying of unit tests. **Unit testing must be done on base of input and output of individual function so when they are joined together it has better chance to have worked as whole, it is better not to interfere with operation of function.
+Everyone has the same question when writing tests for first time.
+- You must break down the logic of your application into small chunks or units and verify that each chunk works perfectly and as desired.
+- **In javascript the smallest individual chunk you can test is usually functions. The core feature in application must be verified with accompanying unit tests.**
+- Unit testing must be done on the basis of input and output for an individual function so when functions are joined together, your code has a better chance to work as a whole.
+- It is better not to interfere with the operation of a function.
 
-Best practice says you should write your unit test before actual development starts. You must have question in mind how you can do it? Answer for it is simple just create an empty unit test for function and keep it updating as function gets updated and freeze it when final move is made on that function development. So if any new comer comes and try to change in code he/she would know logic break in tests.
+Best practice says you should write your unit test before actual development starts. You must be questioning yourself, how can we possibly do that? The answer is simple: just create an empty unit test for the function, keep updating it when function is updated, and freeze it when final touches are made on that function's development. Now if any newcomers try to make changes in code, they would easily find out about any mistakes if & when the tests break.
 
-Unit tests must be break down into 3 parts:
+Unit tests must be broken down into 3 parts:
 
 1. Story
 2. Feature
 3. Units
 
-So in our case Story is \`_User comes to our page and login to it, successful he redirected to Profile page_\`. In this we says feature is user login and we further divide feature into units as following:
+So in our case Story is \`_Users come to our page and login, if successful they are redirected to Profile page_\`. In this we state that our feature is user login and we further divide this feature into units as follows:
 
 1. Ensure invalid emails do not pass.
-2. Ensure valid email pass the validation.
+2. Ensure valid emails pass the validation.
 3. Ensure path changes on user logged in.
 
 ```
 describe("user login form", function() {
     it("Ensure invalid emails do not pass", function() {});
-    it("Ensure valid email pass the validation", function() {});
+    it("Ensure valid emails pass the validation", function() {});
     it("Ensure path changes on user logged in", function() {});
 });
 ```
@@ -38,9 +45,9 @@ describe("user login form", function() {
 
 ### Introduction to tools
 
-**Karma **is test runner and it is a direct product from angularJS team. It provide flexibility to test your app in various browser and get integrated with Jenkins, TravisCI and CircleCI continuos integration tool.
+**Karma** is a test runner and it is a direct product from angularJS team. It provides flexibility to test your app in various browsers and is integrated with Jenkins, TravisCI and CircleCI continuous integration tools.
 
-**Jasmin **is test behavior driven development framework for testing javascript. It plays very well used with karma. Similar to karma jasmin is also recommended testing framework choice for angularJS testing. Jasmin is dependencies free.
+**Jasmin** is a test behavior driven development framework for testing javascript. It plays very well with karma. Similar to karma jasmin is also recommended as a framework of choice for AngularJS testing. Jasmin is dependency free.
 
 ### Practical fun
 
