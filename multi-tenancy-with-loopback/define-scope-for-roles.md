@@ -3,9 +3,12 @@ Loopback allows you to define various [User Roles](https://loopback.io/doc/en/lb
 
 
 ###Multi-Tenant Roles 
-1. A `orgAdmin` like role for access over REST is required to allow access for the administrative actions needed for any particular organization. Api's to manage/invite other users, profile and payments configurations and decide hierarchal powers were to be only allowed for organization admins.
-
-2. `orgUser` role for access over other basic apis which helps organization to execute properly. 
+1. An `orgAdmin` like role is required for access over REST to allow for administrative actions needed for any particular organization:
+    1. API's to manage/invite other users,
+    2. profile and payments configurations, and
+    3. deciding hierarchal powers.
+    4. Hopefully, it makes sense naturally that such actions *should* only be allowed for an organization's administrators.
+2. An `orgUser` role is required for accessing other basic APIs which help an organization execute properly.
 
 ###Built In Roles
 LoopBack enables you to define dynamic roles that are defined at run-time. 
