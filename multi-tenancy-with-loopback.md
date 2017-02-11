@@ -4,7 +4,7 @@
 #####In this chapter we will cover:
 * [What is Multi-Tenancy](multi-tenancy-with-loopback.md)
 * [Architecting with Loopback](multi-tenancy-with-loopback/what-is-multi-tenancy.md)
-* [Define scope for Roles](multi-tenancy-with-loopback/architecting-with-loopback.md)
+* [Define scope for Roles](multi-tenancy-with-loopback/define-scope-for-roles.md)
 * [Role Resolvers](multi-tenancy-with-loopback/role-resolvers.md)
 * [Access Controll For Tenants](multi-tenancy-with-loopback/access-controll-for-tenants.md)
 
