@@ -9,7 +9,7 @@ Use `Role.registerResolver()`  to set up a custom role handler in a boot script.
 module.exports = function(app){
 var _ = require('underscore');
 var Role = app.models.Role;
-Role.registerResolver(eachRole, function(role, context, cb) {
+Role.registerResolver(adminForOrg, function(role, context, cb) {
     function reject(err) {
       if(err) {
         return cb(err);
@@ -39,7 +39,8 @@ Role.registerResolver(eachRole, function(role, context, cb) {
         }
       })
       .then(function(userModelInstance){
-        if(!_.isEqual(userModelInstance.organisationId.toString(),currentOrg.toString())){
+       var isAdmin = _.findWhere(currentUserRoles,{name: 'orgAdmin'});
+        if(!_.isEqual(userModelInstance.organisationId.toString(),currentOrg.toString()) || !isAdmin){
           // return if false
           return reject();
         }
