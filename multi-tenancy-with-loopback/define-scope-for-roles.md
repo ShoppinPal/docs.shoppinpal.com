@@ -16,6 +16,7 @@ LoopBack provides the following built-in dynamic role
 `$unauthenticated` - Unauthenticated user
 `$everyone` - Everyone
 
+
 ###Custom Role resolvers
 You can create custom role through boot scripts. Here's an example for creating custom role.
 
