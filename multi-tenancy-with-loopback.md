@@ -7,7 +7,8 @@
 * [Define scope for Roles](multi-tenancy-with-loopback/define-scope-for-roles.md)
 * [Role Resolvers](multi-tenancy-with-loopback/role-resolvers.md)
 * [Access Controll For Tenants](multi-tenancy-with-loopback/access-controll-for-tenants.md)
-*Better Programming with multi-tenancy
+* [Better Programming with multi-tenancy](multi-tenancy-with-loopback/better-programming-with-multi-tenancy.md)
+
 
 #####Resources
 1. [multi-tenant-loopback-example](https://github.com/ShoppinPal/multi-tenant-loopback-example#multi-tenant-loopback-example) by [Pulkit](https://github.com/pulkitsinghal)
