@@ -6,7 +6,7 @@
 * [Architecting with Loopback](multi-tenancy-with-loopback/architecting-with-loopback.md)
 * [Define scope for Roles](multi-tenancy-with-loopback/define-scope-for-roles.md)
 * [Role Resolvers](multi-tenancy-with-loopback/role-resolvers.md)
-* [Access Controll For Tenants](multi-tenancy-with-loopback/access-controll-for-tenants.md)
+* [Access Control For Tenants](multi-tenancy-with-loopback/access-controll-for-tenants.md)
 * [Better Programming with multi-tenancy](multi-tenancy-with-loopback/better-programming-with-multi-tenancy.md)
 
 
