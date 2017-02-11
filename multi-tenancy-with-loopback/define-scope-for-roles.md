@@ -17,7 +17,7 @@ LoopBack provides the following built-in dynamic role
 `$everyone` - Everyone
 
 
-###Custom Role definition
+###Custom Role
 You can create custom role through boot scripts. Here's an example for creating custom role.
 
 ```
