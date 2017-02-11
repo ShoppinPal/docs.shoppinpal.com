@@ -4,7 +4,8 @@
 #####In this chapter we will cover:
 *    What is Multi-Tenancy
 *    Architecting with Loopback 
-*    Authorization For Tenants
+*    Define scope for Roles
+*    Access Controll For Tenants
 
 
 #####Resources
