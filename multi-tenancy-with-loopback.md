@@ -5,3 +5,9 @@
 *    What is Multi-Tenancy
 *    Architecting with Loopback 
 *    Authorization For Tenants
+
+
+#####Resources
+1. [multi-tenant-loopback-example](https://github.com/ShoppinPal/multi-tenant-loopback-example#multi-tenant-loopback-example) by [Pulkit](https://github.com/pulkitsinghal)
+2. [multi-tenancy-loopback](https://github.com/aquid/multi-tenancy-loopback) by [Aquid](https://github.com/aquid)
+
