@@ -51,4 +51,5 @@
   * [Define scope for Roles](multi-tenancy-with-loopback/define-scope-for-roles.md)
   * [Role resolvers](multi-tenancy-with-loopback/role-resolvers.md)
   * [Access Controll For Tenants](multi-tenancy-with-loopback/access-controll-for-tenants.md)
+  * [Better Programming with multi-tenancy](multi-tenancy-with-loopback/better-programming-with-multi-tenancy.md)
 
