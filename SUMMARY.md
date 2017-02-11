@@ -49,5 +49,5 @@
   * [What is Multi-Tenancy ](multi-tenancy-with-loopback/what-is-multi-tenancy.md)
   * [Architecting with Loopback](multi-tenancy-with-loopback/architecting-with-loopback.md)
   * [Define scope for Roles](multi-tenancy-with-loopback/define-scope-for-roles.md)
-  * Access Control for tenants
+  * Role resolvers
 

@@ -1,4 +1,4 @@
-#Roles and their resolvers
+#Roles in Loopback
 Loopback allows you to define various [User Roles](https://loopback.io/doc/en/lb3/Defining-and-using-roles.html) based on the requirements. It enables you to define both [static](https://loopback.io/doc/en/lb3/Defining-and-using-roles.html#static-roles) and [dynamic](https://loopback.io/doc/en/lb3/Defining-and-using-roles.html#dynamic-roles) roles. Static roles are stored in a data source and are mapped to users. In contrast, dynamic roles aren’t assigned to users and are determined during access.
 
 
@@ -7,7 +7,7 @@ Loopback allows you to define various [User Roles](https://loopback.io/doc/en/lb
 
 2. `orgUser` role for access over other basic apis which helps organization to execute properly. 
 
-###Built In Role resolvers
+###Built In Roles
 LoopBack enables you to define dynamic roles that are defined at run-time. 
 
 LoopBack provides the following built-in dynamic role

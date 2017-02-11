@@ -5,6 +5,7 @@
 *    What is Multi-Tenancy
 *    Architecting with Loopback 
 *    Define scope for Roles
+*    Role Resolvers
 *    Access Controll For Tenants
 
 
