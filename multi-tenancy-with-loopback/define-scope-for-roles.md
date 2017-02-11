@@ -6,3 +6,23 @@ Loopback allows you to define various [User Roles](https://loopback.io/doc/en/lb
 1. A `orgAdmin` like role for access over REST is required to allow access for the administrative actions needed for any particular organization. Api's to manage/invite other users, profile and payments configurations and decide hierarchal powers were to be only allowed for organization admins.
 
 2. `orgUser` role for access over other basic apis which helps organization to execute properly. 
+
+###Built In Role resolvers
+LoopBack enables you to define dynamic roles that are defined at run-time. 
+
+LoopBack provides the following built-in dynamic role
+`$owner` - Owner of the object
+`$authenticated` - authenticated user
+`$unauthenticated` - Unauthenticated user
+`$everyone` - Everyone
+
+###Custom Role resolvers
+You can create custom role through boot scripts. Here's an example for creating custom role.
+
+```
+var Role = app.models.Role;
+var RoleMapping = app.models.RoleMapping;
+
+
+```
+
