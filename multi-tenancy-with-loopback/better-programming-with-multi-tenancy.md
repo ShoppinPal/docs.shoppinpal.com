@@ -1,4 +1,4 @@
-#Improve Modularity
+# Improve Modularity
 Now when you have multi-tenancy applied in your project its very important to write clean and modular code for easy understanding and improved readability. Here are some important suggestions to follow that will help you to write better code:
 
 1. Since most of the methods you write will pass from organization and will often be defined in `organization.json` make sure to define function specific to particular model inside their own `model.json` and internally call the function with right arguments from `organization.json` file.

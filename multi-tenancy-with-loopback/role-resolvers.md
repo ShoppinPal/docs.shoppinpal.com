@@ -1,15 +1,15 @@
-#Role Resolvers
-Use `Role.registerResolver()`  to set up a custom role handler in a boot script. This function takes two parameters: 
+# Role Resolvers
+Use `Role.registerResolver()` to set up a custom role handler in a boot script. This function takes two parameters: 
 
 1. String name of the role in question.
 2. Function that determines if a principal is in the specified role. The function signature must be `function(role, context, callback)`.
 
-#####Example
+##### Example
 ```
-module.exports = function(app){
-var _ = require('underscore');
-var Role = app.models.Role;
-Role.registerResolver(adminForOrg, function(role, context, cb) {
+module.exports = function(app) {
+  var _ = require('underscore');
+  var Role = app.models.Role;
+  Role.registerResolver(adminForOrg, function(role, context, cb) {
     function reject(err) {
       if(err) {
         return cb(err);
@@ -30,7 +30,7 @@ Role.registerResolver(adminForOrg, function(role, context, cb) {
       return reject();
     }
     else {
-    app.models.User.findById(currentUserId, {include:
+      app.models.User.findById(currentUserId, {include:
         {
           relation:'roles',
           scope : {
@@ -41,8 +41,7 @@ Role.registerResolver(adminForOrg, function(role, context, cb) {
       .then(function(userModelInstance){
        var isAdmin = _.findWhere(currentUserRoles,{name: 'orgAdmin'});
         if(!_.isEqual(userModelInstance.organisationId.toString(),currentOrg.toString()) || !isAdmin){
-          // return if false
-          return reject();
+          return reject(); // reject if the user's org isn't the current org
         }
         else {
           return cb(null,true);
