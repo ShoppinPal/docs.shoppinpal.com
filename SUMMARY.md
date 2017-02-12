@@ -13,6 +13,7 @@
     * [What's Remaining?](what's-remaining.md)
     * [Feedback](feedback.md)
 * [2. The Backend](loopback/README.md)
+  * [Use Containers](loopback/use-containers.md)
   * [Setup a loopback project](loopback/Setup-a-loopback-project-d15a.md)
   * [Lockdown](loopback/Lockdown-d961.md)
   * [Build a better mousetrap](loopback/Build-a-better-mousetrap-361f.md)
