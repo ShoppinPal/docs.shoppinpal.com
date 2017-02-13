@@ -17,8 +17,8 @@ Let us go with a `devops-first` approach:
    cd ~/workspace/loopback-zero-to-hero
    ```
 1. [Setup your IDE](../configuring-webstorm-ide-for-code-deployment-on-remote-host.md#steps-are-documented-below-the-video) to work with the remote directory on the cloud-box.
-   1. Create New Project named `loopback-zero-to-hero`
-   2. For `Deployment Path` use `/root/workspace/loopback-zero-to-hero`
+   1. **Create New Project named `loopback-zero-to-hero`**
+   2. **For `Deployment Path` use `/root/workspace/loopback-zero-to-hero`**
 1. In your IDE, create a `Dockerfile` with the following content:
    ```
    # Use latest version 4.x of NodeJS
@@ -55,4 +55,10 @@ Let us go with a `devops-first` approach:
        volumes:
          - ~/workspace/loopback-zero-to-hero:/apps/loopback-zero-to-hero
    ```
-1. Start the service: `docker-compose up`
+1. Start the service: `docker-compose up` and after it finishes running, you should see something like the following at the very end:
+   ```
+   WARNING: Image for service loopback-zero-to-hero was built because it did not already exist. To rebuild this image you must use `docker-compose build` or `docker-compose up --build`.
+Creating loopbackzerotohero_loopback-zero-to-hero_1
+Attaching to loopbackzerotohero_loopback-zero-to-hero_1
+loopbackzerotohero_loopback-zero-to-hero_1 exited with code 0
+   ```
