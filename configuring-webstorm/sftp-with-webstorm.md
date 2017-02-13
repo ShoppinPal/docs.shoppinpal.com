@@ -1,20 +1,13 @@
-## Configuring Webstorm IDE For Code Deployment on Remote Host
+# Setup IDE
 
-![](/assets/WebStorm.jpg)
-
-We are continuously looking to improve our developers' lives by discovering new techniques, which allow them to work in the most productive way. Today, we will be looking at a tool which allows developers to directly verify their changes on the server without worrying about version control terminologies like committing the code, pushing it to the git repository.
-
-The Idea here is simple, We will configure Webstorm IDE such that whenever developers save the code in IDE, it will directly upload the updated code in the remote host working directory.
-
-In Short, _**Webstorm will be continuously syncing local code with the code on remote host**._
-
-For this, we will be using _**SFTP functionality in Webstorm IDE**_, so lets get started :
-
-#### **Note**: _**This tutorial assumes you have already [setup a droplet](/setup.md) on DigitalOcean.**_
+**Note**: _**This tutorial assumes you have already setup a droplet on DigitalOcean.**_
 
 ### Steps are documented below the video:
 
-1. Open **Webstorm IDE &gt; Tools &gt; Deployment &gt; Configuration**
+1. Open WebStorm
+   1. Create New Project, or
+   1. Open an existing one.
+1. Goto **Webstorm IDE &gt; Tools &gt; Deployment &gt; Configuration**
 
    This will open the configuration window where you will be adding a server .
 
