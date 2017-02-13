@@ -1,9 +1,15 @@
+# The Backend
+
+## Setup a loopback project
+
 To start with a clean environment, run:
 ```
 $ mkdir -p ~/workspace
 $ cd ~/workspace
 $ rm -rf loopback-zero-to-hero
 ```
+
+Make sure you have 
 
 Next, setup a loopback project:
 ```
