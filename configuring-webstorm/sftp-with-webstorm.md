@@ -4,11 +4,7 @@
 
 ### Steps are documented below the video:
 
-{% video %}
-
-https://www.dropbox.com/s/8bfswltk47f5sfz/Webstorm%20Configuration%20For%20Code%20Deployment%20on%20Remote%20Host%20.mp4?dl=0
-
-{% endvideo %}
+{% youtube %} https://www.youtube.com/watch?v=Ny02YT83ejY {% endyoutube %}
 
 1. Open WebStorm
    1. Create New Project, or
@@ -62,6 +58,3 @@ https://www.dropbox.com/s/8bfswltk47f5sfz/Webstorm%20Configuration%20For%20Code%
 13. Goto **Tools &gt; Deployment** menu and select **Automatic Upload**
 14. Now whenever you save changes, **the code is uploaded on the remote host**
     * Advanced users: Additionally if your remote box is configured appropriately, then your application is re-deployed with the updated code. But that's a separate topic.
-
-
-
