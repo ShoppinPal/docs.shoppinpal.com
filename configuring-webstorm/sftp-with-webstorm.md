@@ -4,11 +4,11 @@
 
 ### Steps are documented below the video:
 
-% youtube %}
+{% video %}
 
 https://www.dropbox.com/s/8bfswltk47f5sfz/Webstorm%20Configuration%20For%20Code%20Deployment%20on%20Remote%20Host%20.mp4?dl=0
 
-endyoutube %}
+{% endvideo %}
 
 1. Open WebStorm
    1. Create New Project, or
@@ -51,7 +51,9 @@ endyoutube %}
    2. **Deployment Path** : path of your application on the remote host. For eg. /root/dev/BluBox where BluBox is the application directory.
 
 10. For advanced users:
+
     * You can chose to ignore few directories which we want i.e. `node modules`, `bower_components` etc. by adding them to excluded paths.
+
 11. Now Click on **OK**.
 12. Your Webstorm Deployment Server Configuration is complete.
     1. If you used an **existing project**:
