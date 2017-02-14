@@ -5,6 +5,10 @@
 Let us go with a `devops-first` approach:
 > Our smallest experiments, no matter how trivial, will be closest to production best practices!
 
+_**Note**: Even without the video, you can learn all the crucial details from the steps that are documented below_
+
+{% youtube %} https://youtu.be/u1CG-ujpnWk {% endyoutube %}
+
 1. Login to your [cloud-box](../setup.md) over `ssh`.
    * Create it if you haven't done so already.
    * This will be a robust environment for learning.

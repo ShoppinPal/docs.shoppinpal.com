@@ -2,16 +2,7 @@
 
 ## Setup a loopback project
 
-To start with a clean environment, run:
-```
-$ mkdir -p ~/workspace
-$ cd ~/workspace
-$ rm -rf loopback-zero-to-hero
-```
-
-Make sure you have 
-
-Next, setup a loopback project:
+Let's setup a loopback project:
 ```
 $ slc loopback
 ? What's the name of your application? loopback-zero-to-hero
