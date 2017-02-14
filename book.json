@@ -4,8 +4,7 @@
         "youtube",
         "googledocs",
         "editlink",
-        "anchors",
-        "video"
+        "anchors"
     ],
     "pluginsConfig": {
         "versions": {
