@@ -1,4 +1,4 @@
-[](https://training.shoppinpal.com/setup.html)# Setup IDE
+# Setup IDE
 
 **Note**: _**This tutorial assumes you have already setup a droplet on DigitalOcean.**_
 
