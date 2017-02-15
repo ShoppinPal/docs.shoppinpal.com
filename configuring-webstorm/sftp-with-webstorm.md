@@ -1,6 +1,6 @@
 # Setup IDE
 
-**Note**: _**This tutorial assumes you have already setup a droplet on DigitalOcean.**_
+**Note**: _**This tutorial assumes you have already [setup a droplet on DigitalOcean.](https://training.shoppinpal.com/setup.html)**_
 
 ### Steps are documented below the video:
 
