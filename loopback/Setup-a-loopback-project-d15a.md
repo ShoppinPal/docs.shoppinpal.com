@@ -2,12 +2,16 @@
 
 ## Setup a loopback project
 
-Let's setup a loopback project:
-```
-$ slc loopback
-? What's the name of your application? loopback-zero-to-hero
-? Enter name of the directory to contain the project: loopback-zero-to-hero
-```
+1. Login to your [cloud-box](../setup.md) over `ssh`.
+   * Create it if you haven't done so already.
+   * This will be a robust environment for learning.
+1. Let's setup a loopback project on the [cloud-box]:
+    ```
+    $ cd ~/workspace/loopback-zero-to-hero
+    $ slc loopback
+    ? What's the name of your application? loopback-zero-to-hero
+    ? Enter name of the directory to contain the project: loopback-zero-to-hero
+    ```
 It will just a short while to finish.
 
 ### What just happened?

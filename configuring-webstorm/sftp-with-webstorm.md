@@ -4,6 +4,8 @@
 
 ### Steps are documented below the video:
 
+{% youtube %} https://www.youtube.com/watch?v=Ny02YT83ejY {% endyoutube %}
+
 1. Open WebStorm
    1. Create New Project, or
    1. Open an existing one.
