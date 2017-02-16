@@ -53,6 +53,7 @@
   * [What should we use](promises/what-should-we-use.md)
 * [Appendix](appendix.md)
   * [Bug in WebStorm deployments](bug-in-webstorm-deployments.md)
+  * How to find node.js performance optimization killers
   * [Scalable App Deployment with AWS](scalable-app-deployment-with-aws.md)
   * [Chrome Tips & Tricks](chrome-tips--tricks.md)
   * [Host your own Gitbook](host-your-own-gitbook.md)
