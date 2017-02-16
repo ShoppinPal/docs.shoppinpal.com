@@ -51,6 +51,7 @@
         * uploaded the zip from "target” directory to hosted ES
         * reindex operation errored out during trial & error
 * [Word Delimiter](https://www.elastic.co/guide/en/elasticsearch/reference/current/analysis-word-delimiter-tokenfilter.html)
+* You can avoid rebuilding an index due to mapping changes by using [aliases](https://www.elastic.co/blog/changing-mapping-with-zero-downtime) or [multi-fields](https://www.elastic.co/blog/changing-mapping-with-zero-downtime#_upgrade_to_a_multi_field) mappings.
 
 ## Examples & Exercises
 
