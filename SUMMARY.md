@@ -58,4 +58,5 @@
   * [Gitbook Tips & Tricks](gitbook-tips-and-tricks.md)
   * [How to handle support incidents](how-to-handle-support-incidents.md)
   * [Dev Resources](dev-resources.md)
+  * [Logging](logging.md)
 
