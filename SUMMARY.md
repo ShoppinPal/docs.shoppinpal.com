@@ -52,6 +52,7 @@
   * [Nuances](promises/nuances.md)
   * [What should we use](promises/what-should-we-use.md)
 * [8. Learning Docker](docker/docker-introduction.md)
+  * [Docker Swarm](docker/docker-swarm.md)
 * [Appendix](appendix.md)
   * [Bug in WebStorm deployments](bug-in-webstorm-deployments.md)
   * [ How to find node.js performance optimization killers](how-to-find-node.js-performance-killers.md)
