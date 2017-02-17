@@ -51,6 +51,7 @@
   * [Promise Implementations](promises/promise-implementations.md)
   * [Nuances](promises/nuances.md)
   * [What should we use](promises/what-should-we-use.md)
+* [8. Learning Docker](docker/docker-introduction.md)
 * [Appendix](appendix.md)
   * [Bug in WebStorm deployments](bug-in-webstorm-deployments.md)
   * [ How to find node.js performance optimization killers](how-to-find-node.js-performance-killers.md)
@@ -61,4 +62,6 @@
   * [How to handle support incidents](how-to-handle-support-incidents.md)
   * [Dev Resources](dev-resources.md)
   * [Logging](logging.md)
+
+
 
