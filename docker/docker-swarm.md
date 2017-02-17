@@ -35,7 +35,7 @@ A Docker swarm is a cluster of machines, all running docker which provides a sca
 
 > Now you will be able to see your website running on port 80 of any of the droplets.** wait.**. **we deployed this service on only one droplet so how come it's available on every droplet?** because though there is only one service running the port that we deployed it on is mapped for every droplet in the swarm so when we hit port 80 on swarm-1 which does not have the service running it immediately knows which application we are trying to use and forwards our request to that host.
 
-   10. Now when we want to deploy multiple instances of this application as a container we will use below command to deploy those many replicas of the container in docker swarm : `docker service update --replicas 10 website`  This will deploy 10 replicas of the container among the droplets in docker swarm.
+10 . Now when we want to deploy multiple instances of this application as a container we will use below command to deploy those many replicas of the container in docker swarm : `docker service update --replicas 10 website`  This will deploy 10 replicas of the container among the droplets in docker swarm.
 
    11.Now try shutting down one of the droplets in docker swarm, you will observe that though the containers on that droplet are terminated, those containers were redeployed on other droplets in the docker swarm. This increases the availability and scalability of our application in the production.
 
