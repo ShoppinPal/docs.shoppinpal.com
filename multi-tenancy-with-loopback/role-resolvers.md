@@ -1,10 +1,12 @@
 # Role Resolvers
-Use `Role.registerResolver()` to set up a custom role handler in a boot script. This function takes two parameters: 
+
+Use `Role.registerResolver()` to set up a custom role handler in a boot script. This function takes two parameters:
 
 1. String name of the role in question.
 2. Function that determines if a principal is in the specified role. The function signature must be `function(role, context, callback)`.
 
 ##### Example
+
 ```
 module.exports = function(app) {
   var _ = require('underscore');
@@ -54,3 +56,6 @@ module.exports = function(app) {
   });
 });
 ```
+
+
+

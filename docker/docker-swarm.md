@@ -23,10 +23,17 @@ A Docker swarm is a cluster of machines, all running docker which provides a sca
 **Steps** **:**
 
 1. Clone the Github repository in your local system using command :
-   `git clone https://github.com/Bhushan001/docker-swarm-html.git`
-2. Now you can go into the directory using: `cd docker-swarm-html`
-3. Now you will need to copy file install.sh to all of your droplets using command.                                                                                 `scp install.sh root@ip_address:/root/install.sh`
-4. after copying `install.sh` from local to droplets, you can install docker by executing script using : `./install.sh`
+
+   ```git clone https://github.com/Bhushan001/docker-swarm-html.git```
+2. Now you can go into the directory using:
+ 
+   ```cd docker-swarm-html```
+3. Now you will need to copy file install.sh to all of your droplets using command.
+ 
+ ```scp install.sh root@ip_address:/root/install.sh```
+4. after copying `install.sh` from local to droplets, you can install docker by executing script using :
+ 
+ ```./install.sh```
 5. After successfully installing docker, you will need to setup docker swarm.
 6. Log in into one of the droplets using ssh as `ssh root@ipaddressof_droplet `
 7. To create docker swarm, run `docker swarm init --listen-addr ip-address-of-droplet:2377 --advertise-addr ip-address-of-droplet `this will _**initialize the docker swarm on this system and make this droplet as a swarm manager**_. This command will also generate a joining token for other droplets to join the swarm. copy that command and run it on each of the other droplets so they can join this swarm. 
