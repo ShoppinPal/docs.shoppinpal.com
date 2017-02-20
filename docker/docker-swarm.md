@@ -35,16 +35,38 @@ A Docker swarm is a cluster of machines, all running docker which provides a sca
  
  ```./install.sh```
 5. After successfully installing docker, you will need to setup docker swarm.
-6. Log in into one of the droplets using ssh as `ssh root@ipaddressof_droplet `
-7. To create docker swarm, run `docker swarm init --listen-addr ip-address-of-droplet:2377 --advertise-addr ip-address-of-droplet `this will _**initialize the docker swarm on this system and make this droplet as a swarm manager**_. This command will also generate a joining token for other droplets to join the swarm. copy that command and run it on each of the other droplets so they can join this swarm. 
-8. You can use `docker node ls `to check how many nodes are there in the docker swarm.
-9. Now you will need to deploy a service in this docker swarm.run the command                                                                         `docker service create --name website --publish 80:80 bhushangadekar01/docker-swarm-html `This will create a service in docker swarm from docker image **bhushangadekar01/docker-swarm-html **and run it as a container on port 80.
+6. Log in into one of the droplets using ssh as
+ 
+ ```ssh root@ipaddressof_droplet ```
+7. To create docker swarm, run 
+
+ ```docker swarm init --listen-addr ip-address-of-droplet:2 --advertise-addr ip-address-of-droplet ```
+  
+ this will _**initialize the docker swarm on this system and make this droplet as a swarm manager**_. This command will also generate a joining token for other droplets to join the swarm. copy that command and run it on each of the other droplets so they can join this swarm. 
+8. For example, after copying the generated command, you can login to any other droplet in the subnet using ssh and run this command. After doing this, that droplet will join the docker swarm as a worker and the swarm will look like this.
+![](/assets/docker/2.After Joining the Leader.png)
+8. You can use 
+  
+  ```docker node ls ```  
+  
+  to check how many nodes are there in the docker swarm.
+9. Now you will need to deploy a service in this docker swarm.run the command
+ 
+    ```docker service create --name website --publish 80:80 bhushangadekar01/docker-swarm-html ```
+           
+    This will create a service in docker swarm from docker image **bhushangadekar01/docker-swarm-html **and run it as a container on port 80.
 
 > Now you will be able to see your website running on port 80 of any of the droplets.** wait.**. **we deployed this service on only one droplet so how come it's available on every droplet?** because though there is only one service running the port that we deployed it on is mapped for every droplet in the swarm so when we hit port 80 on swarm-1 which does not have the service running it immediately knows which application we are trying to use and forwards our request to that host.
 
-   10 . Now when we want to deploy multiple instances of this application as a container we will use below command to deploy those many replicas of the container in docker swarm : `docker service update --replicas 10 website`  This will deploy 10 replicas of the container among the droplets in docker swarm.
+   11 . Now when we want to deploy multiple instances of this application as a container we will use below command to deploy those many replicas of the container in docker swarm :
+    
+   ```docker service update --replicas 10 website``` 
+   
+   This will deploy 10 replicas of the container among the droplets in docker swarm.
 
-   11.Now try shutting down one of the droplets in docker swarm, you will observe that though the containers on that droplet are terminated, those containers were redeployed on other droplets in the docker swarm. This increases the availability and scalability of our application in the production.
+   12.Now try shutting down one of the droplets in docker swarm, you will observe that though the containers on that droplet are terminated, those containers were redeployed on other droplets in the docker swarm. 
+   
+   This increases the availability and scalability of our application in the production.
 
 
 
