@@ -86,6 +86,6 @@ _**Note**: Even without the video, you can learn all the crucial details from th
      }
    }
 ```
-2. Go to `/_plugin/elasticsearch-inquisitor/#/tokenizers` to see the `ngram_3_by_3` analyzer at the bottom of the page.
+2. Go to `/_plugin/elasticsearch-inquisitor/#/analyzers` to see the `ngram_3_by_3` analyzer at the bottom of the page.
    * click the checkbox and then use the top most input field to see how the analyzer breaks down the input into tokens
    ![](/assets/ngram inquisitor.png)
