@@ -14,6 +14,7 @@
     * [What's Remaining?](what's-remaining.md)
     * [Feedback](feedback.md)
 * [2. Learning Git](learning-git.md)
+  * [Static Code Analysis](learning-git/static-code-analysis.md)
 * [3. The Backend](loopback/README.md)
   * [Use Containers](loopback/use-containers.md)
   * [Setup a loopback project](loopback/Setup-a-loopback-project-d15a.md)
@@ -63,6 +64,4 @@
   * [How to handle support incidents](how-to-handle-support-incidents.md)
   * [Dev Resources](dev-resources.md)
   * [Logging](logging.md)
-
-
 
