@@ -12,6 +12,7 @@
 * some well written gitbooks:
   * [https://wdi\_sea.gitbooks.io/notes/content/](https://wdi_sea.gitbooks.io/notes/content/)
   * [Frontendium Front-end Web Development](https://hackpacific.gitbooks.io/frontendium-front-end-sprint/content/)
+  * [Javascript Challenges](https://github.com/tcorral/javascript-challenges-book)
 * plugins
   * Show a dropdown to jump between tags or branches of a gitbook - 
     [versions](https://plugins.gitbook.com/plugin/versions)
