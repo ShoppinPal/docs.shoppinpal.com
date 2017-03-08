@@ -56,6 +56,7 @@
   * [Docker Swarm](docker/docker-swarm.md)
 * [Appendix](appendix.md)
   * [Bug in WebStorm deployments](bug-in-webstorm-deployments.md)
+  * [The Perfect Terminal](iterm.md)
   * [ How to find node.js performance optimization killers](how-to-find-node.js-performance-killers.md)
   * [Scalable App Deployment with AWS](scalable-app-deployment-with-aws.md)
   * [Chrome Tips & Tricks](chrome-tips--tricks.md)
