@@ -8,9 +8,7 @@ After following this tutorial, the terminal for your mac will look something lik
 
 As you can see, the color combination definitely looks appealing and it also tells you which branch you are using if you are inside a git repository. So Let's get started !
 
-
-
-_**Note: **_Steps are documented below the video.
+_**Note:**_** ** Steps are documented below the video.
 
 ### iTerm 2 :
 
@@ -57,6 +55,4 @@ When you installed Zsh on your system, its** .zshrc** file which is **similar to
 To improve your productivity even more, you can have a look at this [cheatsheet](https://github.com/robbyrussell/oh-my-zsh/wiki/Cheatsheet) which has some handy aliases for the Zsh, they're really useful.
 
 Have fun with your new terminal.
-
-
 
