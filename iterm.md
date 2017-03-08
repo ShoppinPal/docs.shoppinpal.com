@@ -10,6 +10,8 @@ As you can see, the color combination definitely looks appealing and it also tel
 
 _**Note:**_** ** Steps are documented below the video.
 
+{% youtube %} https://www.youtube.com/watch?v=KRnqhfBITSY&feature=youtu.be {% endyoutube %}
+
 ### iTerm 2 :
 
 Firstly, download and install [iTerm2](https://www.iterm2.com/). It's a free replacement for the default terminal that comes with your OS X installation. The installation is pretty straightforward.
