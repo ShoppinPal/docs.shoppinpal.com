@@ -7,3 +7,4 @@ A `Worker` is either woken up to work or is already running and delegated a job 
 ## PHP
 ![](/assets/Worker architecture.png)
 
+![](/assets/Worker timeline.png)
