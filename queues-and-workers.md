@@ -9,8 +9,3 @@ A `message` contains the data required to run a job.
 A `Queue` is where the messages are posted, its like a job board.
 A `Worker` performs all the heavy lifting and finishes the job based on the `message`.
 
-
-## PHP
-![](/assets/Worker architecture.png)
-
-![](/assets/Worker timeline.png)

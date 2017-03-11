@@ -54,6 +54,8 @@
   * [What should we use](promises/what-should-we-use.md)
 * [8. Learning Docker](docker/docker-introduction.md)
   * [Docker Swarm](docker/docker-swarm.md)
+* [9. Queues & Workers](queues-and-workers.md)
+  * [PHP workers in AWS EBS](queues-and-workers/php-workers-in-aws-ebs.md)
 * [Appendix](appendix.md)
   * [Bug in WebStorm deployments](bug-in-webstorm-deployments.md)
   * [The Perfect Terminal](iterm.md)
@@ -65,6 +67,4 @@
   * [How to handle support incidents](how-to-handle-support-incidents.md)
   * [Dev Resources](dev-resources.md)
   * [Logging](logging.md)
-* [9. Queues & Workers](queues-and-workers.md)
-  * [PHP workers in AWS EBS](queues-and-workers/php-workers-in-aws-ebs.md)
 
