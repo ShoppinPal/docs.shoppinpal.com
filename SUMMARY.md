@@ -65,6 +65,6 @@
   * [How to handle support incidents](how-to-handle-support-incidents.md)
   * [Dev Resources](dev-resources.md)
   * [Logging](logging.md)
-* [Queues & Workers](queues-and-workers.md)
+* [9. Queues & Workers](queues-and-workers.md)
   * [PHP workers in AWS EBS](queues-and-workers/php-workers-in-aws-ebs.md)
 
