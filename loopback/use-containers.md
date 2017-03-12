@@ -20,7 +20,7 @@ _**Note**: Even without the video, you can learn all the crucial details from th
    mkdir -p ~/workspace/loopback-zero-to-hero && \
    cd ~/workspace/loopback-zero-to-hero
    ```
-1. [Setup your IDE](..//configuring-webstorm/sftp-with-webstorm.md#steps-are-documented-below-the-video) to work with the remote directory on the cloud-box.
+1. [Setup your IDE](../configuring-webstorm/sftp-with-webstorm.md#steps-are-documented-below-the-video) to work with the remote directory on the cloud-box.
    1. **Create New Project named `loopback-zero-to-hero`**
    2. **For `Deployment Path` use `/root/workspace/loopback-zero-to-hero`**
 1. In your IDE, create a `Dockerfile` with the following content:
