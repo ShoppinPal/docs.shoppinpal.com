@@ -71,4 +71,5 @@
   * [How to handle support incidents](how-to-handle-support-incidents.md)
   * [Dev Resources](dev-resources.md)
   * [Logging](logging.md)
+  * [Authentication Principles](authentication-principles.md)
 
