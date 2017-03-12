@@ -56,6 +56,7 @@
   * [Docker Swarm](docker/docker-swarm.md)
 * [9. Queues & Workers](queues-and-workers.md)
   * [PHP workers in AWS EBS](queues-and-workers/php-workers-in-aws-ebs.md)
+  * [NodeJS workers in AWS EBS](queues-and-workers/nodejs-workers-in-aws-ebs.md)
 * [Appendix](appendix.md)
   * [Bug in WebStorm deployments](bug-in-webstorm-deployments.md)
   * [The Perfect Terminal](iterm.md)
