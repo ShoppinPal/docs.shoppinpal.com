@@ -11,7 +11,7 @@
     * [Setup box](setup.md)
     * [Setup IDE](configuring-webstorm/README.md)
       * [SFTP with WebStorm](configuring-webstorm/sftp-with-webstorm.md)
-    * \[What's Remaining?\]\(what's-remaining.md\)
+    * [What's Remaining?](what-is-remaining.md)
     * [Feedback](feedback.md)
 * [2. Learning Git](learning-git.md)
   * [Static Code Analysis](learning-git/static-code-analysis.md)
