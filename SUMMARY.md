@@ -60,6 +60,8 @@
     * [SQS Daemon by AWS](queues-and-workers/nodejs-workers-in-aws-ebs/sqs-daemon-by-aws.md)
     * [SQS Daemon in NodeJS](queues-and-workers/nodejs-workers-in-aws-ebs/sqs-daemon-in-nodejs.md)
     * [SQS polling by worker](queues-and-workers/nodejs-workers-in-aws-ebs/sqs-polling-by-worker.md)
+* [10. Docker](docker.md)
+  * [Capabilities](docker/capabilities.md)
 * [Appendix](appendix.md)
   * [Bug in WebStorm deployments](bug-in-webstorm-deployments.md)
   * [The Perfect Terminal](iterm.md)
