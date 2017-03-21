@@ -6,6 +6,7 @@ Ad of this writing, all versions lower than Angular2 will be known as `AngularJS
 
 1. [Angular](http://learnangular2.com/why-angular2) - read all the sections in the left navigation related to Angular
 1. [ES6](http://learnangular2.com/es6/) - read all the sections in the left navigation related to ES6
+1. [Setup For Local Development](https://angular.io/docs/ts/latest/cli-quickstart.html)
 1. [Add Angular to MVC – Part 1](http://blogs.pdsa.com/post/2017/03/01/add-angular-to-mvc-part-1.aspx)
 1. [Basic Building Blocks of Angular 2 Architecture](https://dzone.com/articles/components-of-angular2-architecture)
 1. [Working With Angular Template Forms](https://dzone.com/articles/working-with-angular-template-forms)
