@@ -6,7 +6,6 @@ Ad of this writing, all versions lower than Angular2 will be known as `AngularJS
 
 1. [Angular](http://learnangular2.com/why-angular2) - read all the sections in the left navigation related to Angular
 1. [ES6](http://learnangular2.com/es6/) - read all the sections in the left navigation related to ES6
-1. [Password Strength Meter in AngularJS](https://scotch.io/tutorials/password-strength-meter-in-angularjs)
 1. [Progressive Web Applications with Angular, Spring Boot, and Stormpath](https://stormpath.com/blog/progressive-web-applications-angular-spring-boot-stormpath)
 1. [A Step-By-Step Guide for Building Master-Detail User Interfaces with Angular](http://developer.telerik.com/content-types/tutorials/step-step-guide-building-master-detail-user-interfaces-angular/)
 1. [MAKING YOUR ANGULAR APPS FAST](https://blog.thoughtram.io/angular/2017/02/02/making-your-angular-app-fast.html)
@@ -23,5 +22,5 @@ Ad of this writing, all versions lower than Angular2 will be known as `AngularJS
 1. [Angular testing made easy](https://medium.com/claritydesignsystem/angular-testing-made-easy-4e11f6044129#.xze6qqy6b)
 1. [Testing Routes in Angular](https://semaphoreci.com/community/tutorials/testing-routes-in-angular-2)
 1. [Setting Up Protractor, for Angular and Web Application Testing](https://dzone.com/articles/rapid-fire-protractor-quiz)
-1. [Testing With Angular 2: Some Recipes ](https://dzone.com/articles/talk-testing-with-angular-some-recipes)
+1. [Testing With Angular 2: Some Recipes](https://dzone.com/articles/talk-testing-with-angular-some-recipes)
 1. [Build a Music Player with Angular & Electron III : Bringing It All Together](https://scotch.io/tutorials/build-a-music-player-with-angular-electron-iii-bringing-it-all-together)
