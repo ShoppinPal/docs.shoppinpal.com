@@ -10,6 +10,7 @@ Ad of this writing, all versions lower than Angular2 will be known as `AngularJS
 1. [MAKING YOUR ANGULAR APPS FAST](https://blog.thoughtram.io/angular/2017/02/02/making-your-angular-app-fast.html)
 1. [Add Angular to MVC – Part 1](http://blogs.pdsa.com/post/2017/03/01/add-angular-to-mvc-part-1.aspx)
 1. [Basic Building Blocks of Angular 2 Architecture](https://dzone.com/articles/components-of-angular2-architecture)
+1. [Getting started with Angular's Router](https://toddmotto.com/angular-component-router)
 1. [Working With Angular Template Forms](https://dzone.com/articles/working-with-angular-template-forms)
 1. [Size of Angular applications](http://www.syntaxsuccess.com/viewarticle/size-of-angular-applications)
 1. [Configurable Reactive Forms in Angular with dynamic components](https://toddmotto.com/angular-dynamic-components-forms)
