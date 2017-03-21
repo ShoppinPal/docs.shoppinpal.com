@@ -44,6 +44,7 @@
     * [How to write a test](unit-testing/how-to-write-a-test.md)
     * [Karma and Jasmin](unit-testing/karma-and-jasmin.md)
     * [Writing Tests](unit-testing/writing-tests.md)
+  * [End-2-End Testing](end-2-end-testing.md)
 * [6. ElasticSearch](elasticsearch-es.md)
   * [Better Search with NGram](better-search-with-ngram.md)
   * [NGram with Elasticsearch](ngram-with-elasticsearch.md)
