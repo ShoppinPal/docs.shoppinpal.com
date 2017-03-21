@@ -6,12 +6,12 @@ Ad of this writing, all versions lower than Angular2 will be known as `AngularJS
 
 1. [Angular](http://learnangular2.com/why-angular2) - read all the sections in the left navigation related to Angular
 1. [ES6](http://learnangular2.com/es6/) - read all the sections in the left navigation related to ES6
-1. [Add Angular to MVC – Part 1](http://blogs.pdsa.com/post/2017/03/01/add-angular-to-mvc-part-1.aspx)
 1. [Password Strength Meter in AngularJS](https://scotch.io/tutorials/password-strength-meter-in-angularjs)
 1. [MAKING YOUR ANGULAR APPS FAST](https://blog.thoughtram.io/angular/2017/02/02/making-your-angular-app-fast.html)
+1. [Add Angular to MVC – Part 1](http://blogs.pdsa.com/post/2017/03/01/add-angular-to-mvc-part-1.aspx)
 1. [Basic Building Blocks of Angular 2 Architecture](https://dzone.com/articles/components-of-angular2-architecture)
-1. [Size of Angular applications](http://www.syntaxsuccess.com/viewarticle/size-of-angular-applications)
 1. [Working With Angular Template Forms](https://dzone.com/articles/working-with-angular-template-forms)
+1. [Size of Angular applications](http://www.syntaxsuccess.com/viewarticle/size-of-angular-applications)
 1. [Configurable Reactive Forms in Angular with dynamic components](https://toddmotto.com/angular-dynamic-components-forms)
 1. [Writing Unit Tests in Angular 2](http://www.discoversdk.com/blog/writing-unit-tests-in-angular-2)
 1. []()
