@@ -45,6 +45,7 @@
     * [Karma and Jasmin](unit-testing/karma-and-jasmin.md)
     * [Writing Tests](unit-testing/writing-tests.md)
   * [End-2-End Testing](end-2-end-testing.md)
+  * [Angular2](angular2.md)
 * [6. ElasticSearch](elasticsearch-es.md)
   * [Better Search with NGram](better-search-with-ngram.md)
   * [NGram with Elasticsearch](ngram-with-elasticsearch.md)
