@@ -2,7 +2,7 @@
 
 Ad of this writing, all versions lower than Angular2 will be known as `AngularJS` and all version equal to or greater than Angular2 will be simply referred to as `Angular`
 
-## Lesson Plan:
+## Lesson Plan for Angular:
 
 1. [Angular](http://learnangular2.com/why-angular2) - read all the sections in the left navigation related to Angular
 1. [ES6](http://learnangular2.com/es6/) - read all the sections in the left navigation related to ES6
