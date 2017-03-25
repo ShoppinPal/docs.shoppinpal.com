@@ -80,4 +80,5 @@
   * [Logging](logging.md)
   * [Authentication Principles](authentication-principles.md)
   * [Mac](mac.md)
+  * [nvm](nvm.md)
 
