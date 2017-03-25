@@ -1,6 +1,6 @@
 # Angular 1.x
 
-Ad of this writing, all versions lower than `Angular 2` will be known as `AngularJS` and all version equal to or greater than Angular2 will be simply referred to as `Angular`
+As of this writing, all versions lower than `Angular 2` will be known as `AngularJS` and all version equal to or greater than Angular2 will be simply referred to as `Angular`
 
 ## Lesson Plan for AngularJS:
 
