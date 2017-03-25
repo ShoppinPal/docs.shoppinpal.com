@@ -4,7 +4,8 @@
         "youtube",
         "googledocs",
         "editlink",
-        "anchors"
+        "anchors",
+        "ga"
     ],
     "pluginsConfig": {
         "versions": {
@@ -15,6 +16,9 @@
             "base": "https://github.com/shoppinpal/docs.shoppinpal.com/edit/master",
             "label": "Edit This Page",
             "multilingual": false
+        },
+        "ga": {
+            "token": "UA-96189107-1"
         }
     },
     "title": "ShoppinPal Training"
