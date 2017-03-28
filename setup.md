@@ -1,6 +1,6 @@
 # Setup a machine in the cloud
 
-## Setup
+## Setup box
 
 _**Note**: Even without the video, you can learn all the crucial details from the steps that are documented below_
 

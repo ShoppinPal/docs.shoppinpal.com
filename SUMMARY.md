@@ -9,6 +9,7 @@
   * [Setup a machine in the cloud](setup-a-machine-in-the-cloud.md)
     * [Solution](solution.md)
     * [Setup box](setup.md)
+      * [Setup UI](setup-a-machine-in-the-cloud/setup-box/setup-ui.md)
     * [Setup IDE](configuring-webstorm/README.md)
       * [SFTP with WebStorm](configuring-webstorm/sftp-with-webstorm.md)
       * [SFTP with Visual Studio](configuring-webstorm/sftp-with-visual-studio.md)
