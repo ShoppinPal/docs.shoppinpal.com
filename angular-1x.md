@@ -5,6 +5,7 @@ As of this writing, all versions lower than `Angular 2` will be known as `Angula
 ## Lesson Plan for AngularJS:
 
 * Beginner
+  1. [Angular Basics v1.5.5](http://www.angularjsbook.com/angular-basics/chapters/introduction/)
 * Intermediate
 * Advanced
   1. [Password Strength Meter in AngularJS](https://scotch.io/tutorials/password-strength-meter-in-angularjs)
