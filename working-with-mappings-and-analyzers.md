@@ -39,7 +39,7 @@ PUT /bnext
              "type": "string",
              "index":"not_analyzed"   # this code specifies that 
                                       # particular field should not be analyzed 
-                                      # during index creation therefore will not be searched. 
+                                      # during index creation therefore will be matched as exact value. 
            },
            "shared_by":{
              "type": "string"
