@@ -73,7 +73,7 @@ In this search, fields are search for exact value match i.e. Searching all recor
 
 In this search, ES searches for partial match based on specified keywords. i.e. find all books where discription has words "Hunger","adventure" and "Fantacy".
 
-#### Analysis:
+### Analysis:
 
 For Utilizing these searches to their fullest, analysis needs to be performed.Analysis can be summarized to specifying:
 
