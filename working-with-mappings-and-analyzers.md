@@ -89,7 +89,7 @@ Using analyzers, we can tell elasticsearch how to treat abbreviations in our dat
 
 ##### 2. Stemming:
 
-Using stemming in analyzers allows us to use base words for modified verbs like  
+Using stemming in analyzers allows us to use base words for modified verbs like
 
 | Words | Modifications |
 | :---: | :---: |
@@ -97,13 +97,13 @@ Using stemming in analyzers allows us to use base words for modified verbs like
 
 ##### 3. Typo Handling:
 
-Analyzers also provide typo handling as while querying if we are searching for particular word say 'resurrection', then elasticsearch will return the results in which typos are present.i.e. it will treat typos like resurection,ressurection as same and will retun the result. 
+Analyzers also provide typo handling as while querying if we are searching for particular word say 'resurrection', then elasticsearch will return the results in which typos are present.i.e. it will treat typos like resurection,ressurection as same and will retun the result.
 
 | Words | Modifications |
 | :---: | :---: |
 | resurrection | resurection,ressurection |
 
-### Analyzers in Elasticsearch
+### [Analyzers](https://www.elastic.co/guide/en/elasticsearch/reference/2.4/analysis-analyzers.html) in Elasticsearch
 
 1. Standard
 
