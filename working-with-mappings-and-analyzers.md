@@ -60,8 +60,6 @@ PUT /bnext
 
 **Note**:  Custom mappings can only be specified during index creation, once indexed mappings cannot be modified as there may be data in index belonging to that mapping. Kamal has recently done a chapter about **Re-Indexing**. \(worth a read\).
 
-#### Analysis:
-
 There are two types of searches in elasticsearch.
 
 1. Exact Value Match
@@ -74,6 +72,8 @@ In this search, fields are search for exact value match i.e. Searching all recor
 ##### 2.Full Text Search:
 
 In this search, ES searches for partial match based on specified keywords. i.e. find all books where discription has words "Hunger","adventure" and "Fantacy".
+
+#### Analysis:
 
 For Utilizing these searches to their fullest, analysis needs to be performed.Analysis can be summarized to specifying:
 
