@@ -103,6 +103,16 @@ Analyzers also provide typo handling as while querying if we are searching for p
 | :---: | :---: |
 | resurrection | resurection,ressurection |
 
+### Analysis Phases:
+
+* **Tidy Up The Body**
+  * Analysis involves removing irrelevant stuff like applying character filters e.g. removing html tags
+* **Tokenize the Body**
+  * Tokenizers:
+    * tokenizers can be used to remove whitespaces and generate tokens.
+* **Normalization of Tokens**
+  * After token generation, we need to normalize these tokens. for eg. lowercase all tokens.
+
 ### [Analyzers](https://www.elastic.co/guide/en/elasticsearch/reference/2.4/analysis-analyzers.html) in Elasticsearch
 
 1. Standard
