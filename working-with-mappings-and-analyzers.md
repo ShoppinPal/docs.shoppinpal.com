@@ -21,7 +21,7 @@ For Identifaction, Elasticsearch has following Data Types:
 5. Objects
 6. String
 
-There is also an implicit ` _all `field which is the concatenation of all the fields inside a document.
+There is also an implicit `_all`field which is the concatenation of all the fields inside a document.
 
 Different mapping for type can return different search results.
 
@@ -56,12 +56,9 @@ PUT /bnext
     }
   }
 }
-
 ```
 
 **Note**:  Custom mappings can only be specified during index creation, once indexed mappings cannot be modified as there may be data in index belonging to that mapping. Kamal has recently done a chapter about **Re-Indexing**. \(worth a read\).
-
-
 
 #### Analysis:
 
@@ -78,8 +75,6 @@ In this search, fields are search for exact value match i.e. Searching all recor
 
 In this search, ES searches for partial match based on specified keywords. i.e. find all books where discription has words "Hunger","adventure" and "Fantacy".
 
-
-
 For Utilizing these searches to their fullest, analysis needs to be performed.Analysis can be summarized to specifying:
 
 * Abbreviations
@@ -88,55 +83,43 @@ For Utilizing these searches to their fullest, analysis needs to be performed.An
 
 We will be looking at each of them now.
 
-#####  1. Abbreviations:
+##### 1. Abbreviations:
 
-    Using analyzers, we can tell elasticsearch how to treat abbreviations in our data i.e. dr =&gt; Doctor so whenever we search for doctor keyword in our index, elasticsearch will also return the results which have dr mentioned in them.
+Using analyzers, we can tell elasticsearch how to treat abbreviations in our data i.e. dr = Doctor. So whenever we search for doctor keyword in our index, elasticsearch will also return the results which have dr mentioned in them.
 
-#####  2. Stemming:
+##### 2. Stemming:
 
-    Using stemming in analyzers allows us to use base words for modified verbs like  
+Using stemming in analyzers allows us to use base words for modified verbs like  
 
 | Words | Modifications |
 | :---: | :---: |
 | require | requirements,required |
 
-#####  3. Typo Handling:
+##### 3. Typo Handling:
 
-       Analyzers also provide typo handling as while querying if we are searching for particular word say 'resurrection', then elasticsearch will return the results in which typos are present.i.e. it will treat typos like resurection,ressurection as same and will retun the result. 
+Analyzers also provide typo handling as while querying if we are searching for particular word say 'resurrection', then elasticsearch will return the results in which typos are present.i.e. it will treat typos like resurection,ressurection as same and will retun the result. 
 
 | Words | Modifications |
 | :---: | :---: |
 | resurrection | resurection,ressurection |
 
-
-
 ### Analyzers in Elasticsearch
 
- 1. Standard
+1. Standard
 
- 2. Simple
+2. Simple
 
- 3. Whitespace
+3. Whitespace
 
- 4. Stop
+4. Stop
 
- 5. Keyword
+5. Keyword
 
- 6. Pattern
+6. Pattern
 
- 7. Language
+7. Language
 
- 8. Snowball
-
-
-
-
-
-
-
-
-
-
+8. Snowball
 
 
 
