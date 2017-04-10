@@ -113,7 +113,9 @@ Analyzers also provide typo handling as while querying if we are searching for p
 * **Normalization of Tokens**
   * After token generation, we need to normalize these tokens. for eg. lowercase all tokens.
 
-### [Analyzers](https://www.elastic.co/guide/en/elasticsearch/reference/2.4/analysis-analyzers.html) in Elasticsearch
+### [Analyzers](https://www.elastic.co/guide/en/elasticsearch/reference/2.4/analysis-analyzers.html) in Elasticsearch:
+
+There are few in-built analyzers in elasticsearch.
 
 1. Standard
 
@@ -130,6 +132,61 @@ Analyzers also provide typo handling as while querying if we are searching for p
 7. Language
 
 8. Snowball
+
+Though we can configure our own custom analyzers too. We will be configuring Path Analyzer in this tutorial.
+
+```
+PUT /elastic_course
+{
+  "settings": {
+    "analysis": {
+      "analyzer": {
+        "path_analyzer": {
+          "tokenizer": "path_tokenizer"
+        }
+      },
+      "tokenizer": {
+        "path_tokenizer": {
+          "type": "path_hierarchy",  # Tokenizer Type
+          "delimiter": "/",          # this specifies the character which will be 
+                                     # used to split the body and generate tokens.   
+          "replacement": "-"         # this field will be an alternative for delimiter.
+        }
+      }
+    }
+  },
+  "mappings": {
+    "book" : {
+        "properties": {
+           "author": {
+              "type": "string",
+              "index": "not_analyzed"  # will be matched as exact value
+           },
+           "genre": {
+              "type": "string",
+              "index": "no"            # will be skipped while searching.
+           },
+           "score": {
+              "type": "double"
+           },
+           "synopsis": {
+              "type": "string",
+              "index":"analyzed",
+              "analyzer":"english"     # here we are using built-in analyzers.
+           },
+           "title": {
+              "type": "string"
+           },
+           "path":{
+              "type":"string",
+              "analyzer":"path_analyzer"
+          }
+      }
+    }
+  }
+}
+
+```
 
 
 
