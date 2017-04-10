@@ -135,6 +135,8 @@ There are few in-built analyzers in elasticsearch.
 
 Though we can configure our own custom analyzers too. We will be configuring Path Analyzer in this tutorial.
 
+in the following query, I am indexing an index named 'elastic\_course' and type 'Book' where analyzers and custom mappings are defined.
+
 ```
 PUT /elastic_course
 {
@@ -179,13 +181,13 @@ PUT /elastic_course
            },
            "path":{
               "type":"string",
-              "analyzer":"path_analyzer"
+              "analyzer":"path_analyzer"  # here we are specifying that our custom analyzer 
+                                          # will be used on this field.
           }
       }
     }
   }
 }
-
 ```
 
 
