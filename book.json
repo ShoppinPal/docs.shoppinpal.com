@@ -5,7 +5,8 @@
         "googledocs",
         "editlink",
         "anchors",
-        "ga"
+        "ga",
+        "rss"
     ],
     "pluginsConfig": {
         "versions": {
@@ -19,6 +20,13 @@
         },
         "ga": {
             "token": "UA-96189107-1"
+        },
+        "rss": {
+            "title": "The Ultimate Training Guide",
+            "description": "We are a group of startup enthusiasts. This training guide is meant to be the ultimate resource for our internal use and the public eye! We use it to store our cutting-edge research and to train engineers in our startup's technology stack.",
+            "author": "ShoppinPal Team",
+            "feed_url":"https://training.shoppinpal.com/feed",
+            "site_url": "https://training.shoppinpal.com"
         }
     },
     "title": "ShoppinPal Training"
