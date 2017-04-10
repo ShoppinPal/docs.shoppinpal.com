@@ -52,6 +52,7 @@
   * [Better Search with NGram](better-search-with-ngram.md)
   * [NGram with Elasticsearch](ngram-with-elasticsearch.md)
   * [Fun with Path Hierarchy Tokenizer](fun-with-path-hierarchy-tokenizer.md)
+  * [Working with Mappings and Analyzers](working-with-mappings-and-analyzers.md)
 * [7. Promises](promises.md)
   * [What are Promises](promises/what-are-promises.md)
   * [Promise Implementations](promises/promise-implementations.md)
