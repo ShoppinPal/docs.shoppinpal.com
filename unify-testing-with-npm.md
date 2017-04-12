@@ -9,3 +9,5 @@ Reading Material:
 
 Even docker mixes npm scripts with docker and mocha tests very well:
 https://engineering.gosquared.com/testing-with-docker
+
+Some people prefer to use `grunt` commands to make it easy, like: `grunt test:e2e` can be setup and configured to take care of running all tests without knowing much about underlying stuff. But it would be nicer if same coudl be accomplished via the scripts in `package.json` instead.
