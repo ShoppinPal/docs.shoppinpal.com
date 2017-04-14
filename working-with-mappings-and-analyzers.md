@@ -12,7 +12,7 @@ To Retrieve the existing mapping for a given type, you can use:
 GET /{index-name}/{type}/_mapping
 ```
 
-For Identifaction, Elasticsearch has following Data Types:
+For identification, Elasticsearch has following Data Types:
 
 1. Numeric Types          =&gt;  Byte,Short,Integer & Long
 2. Floating Point Types =&gt;  Float,Double
@@ -30,7 +30,7 @@ Custom mappings are possible.
 #### For Defining Custom Mapping For Type:
 
 ```
-PUT /bnext
+PUT /yourIndexName
 {
   "mappings": {
     "sharing" : {
@@ -58,7 +58,7 @@ PUT /bnext
 }
 ```
 
-**Note**:  Custom mappings can only be specified during index creation, once indexed mappings cannot be modified as there may be data in index belonging to that mapping. Kamal has recently done a chapter about **Re-Indexing**. \(worth a read\).
+**Note**:  Custom mappings can only be specified during index creation. Once indexed, mappings cannot be modified as there may be data in index belonging to that mapping. Kamal has recently done a chapter about **Re-Indexing**. \(worth a read\).
 
 There are two types of searches in elasticsearch.
 
@@ -71,21 +71,21 @@ In this search, fields are search for exact value match i.e. Searching all recor
 
 ##### 2.Full Text Search:
 
-In this search, ES searches for partial match based on specified keywords. i.e. find all books where discription has words "Hunger","adventure" and "Fantacy".
+In this search, ES searches for partial match based on specified keywords. i.e. find all books where discription has words "Hunger","adventure" and "Fantasy".
 
 ### Analysis:
 
-For Utilizing these searches to their fullest, analysis needs to be performed.Analysis can be summarized to specifying:
+For Utilizing these searches to their fullest, analysis needs to be performed. Analysis can be summarized to specifying:
 
 * Abbreviations
-* Stemming     
+* Stemming
 * Typo Handling
 
 We will be looking at each of them now.
 
 ##### 1. Abbreviations:
 
-Using analyzers, we can tell elasticsearch how to treat abbreviations in our data i.e. dr = Doctor. So whenever we search for doctor keyword in our index, elasticsearch will also return the results which have dr mentioned in them.
+Using analyzers, we can tell elasticsearch how to treat abbreviations in our data i.e. `dr = Doctor`. So whenever we search for `doctor` keyword in our index, elasticsearch will also return the results which have `dr` mentioned in them.
 
 ##### 2. Stemming:
 
@@ -93,11 +93,11 @@ Using stemming in analyzers allows us to use base words for modified verbs like
 
 | Words | Modifications |
 | :---: | :---: |
-| require | requirements,required |
+| require | requirements,required,requires,requiring |
 
 ##### 3. Typo Handling:
 
-Analyzers also provide typo handling as while querying if we are searching for particular word say 'resurrection', then elasticsearch will return the results in which typos are present.i.e. it will treat typos like resurection,ressurection as same and will retun the result.
+Analyzers also provide typo handling as while querying if we are searching for particular word say `resurrection`, then elasticsearch will return the results in which typos are present.i.e. it will treat typos like `resurection,ressurection` as same and will return the result.
 
 | Words | Modifications |
 | :---: | :---: |
@@ -135,7 +135,7 @@ There are few in-built analyzers in elasticsearch.
 
 Though we can configure our own custom analyzers too. We will be configuring Path Analyzer in this tutorial.
 
-in the following query, I am indexing an index named 'elastic\_course' and type 'Book' where analyzers and custom mappings are defined.
+In the following query, I am indexing an index named 'elastic\_course' and type 'Book' where analyzers and custom mappings are defined.
 
 ```
 PUT /elastic_course
