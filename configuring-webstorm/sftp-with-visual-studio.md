@@ -2,6 +2,14 @@
 
 1. `Extensions: Install Extension`
 1. Install `ftp-sync`
+    1. PROs:
+        1. setup is simple via template file
+    1. CONs:
+        * syncing triggers are too involved
+            * any file that you don't explicitly save doesn't get synced over
+        * long lived sessions die off
+        * file permissions aren't synced over from local to remote accurately
+        * no clear way to setup 2-way automatic sync
 1. Configure the generated template file `myProject/.vscode/ftp-sync.json`:
     ```
 {
