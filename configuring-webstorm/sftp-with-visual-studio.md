@@ -10,7 +10,8 @@
         * if you are working for a long time without sync  then even saving a file won't cause the trigger from `local to remote` to activate
         * file permissions aren't synced over from local to remote accurately
         * no clear way to setup 2-way automatic sync
-
+    * Verdict:
+        * Use another plugin, this one isn't good enough.
 1. Configure the generated template file `myProject/.vscode/ftp-sync.json`:
     ```
 {
