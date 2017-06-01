@@ -7,7 +7,7 @@
     1. CONs:
         * syncing triggers are too involved
             * any file that you don't explicitly save doesn't get synced over
-        * long lived sessions die off
+        * if you are coding for a long time, then even saving a file won't cause sync from `local to remote` to be triggered
         * file permissions aren't synced over from local to remote accurately
         * no clear way to setup 2-way automatic sync
 1. Configure the generated template file `myProject/.vscode/ftp-sync.json`:
