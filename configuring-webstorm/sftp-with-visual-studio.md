@@ -6,8 +6,8 @@
         * setup is simple via template file
     * CONs:
         * syncing triggers are too involved
-        * any file that you don't explicitly save doesn't get synced over
-        * if you are coding for a long time  then even saving a file won't cause sync from `local to remote` to be triggered
+        * any file that you don't explicitly save, will not be synced over
+        * if you are working for a long time without sync  then even saving a file won't cause the trigger from `local to remote` to activate
         * file permissions aren't synced over from local to remote accurately
         * no clear way to setup 2-way automatic sync
 
