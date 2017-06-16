@@ -84,4 +84,5 @@
   * [Mac](mac.md)
   * [nvm](nvm.md)
   * [Unify testing with npm](unify-testing-with-npm.md)
+  * [Sequence Diagrams](sequence-diagrams.md)
 

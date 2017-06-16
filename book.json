@@ -6,7 +6,8 @@
         "editlink",
         "anchors",
         "ga",
-        "rss"
+        "rss",
+        "js-sequence-diagram"
     ],
     "pluginsConfig": {
         "versions": {
