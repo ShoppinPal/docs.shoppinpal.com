@@ -16,6 +16,7 @@ Queue-->>Worker: Dashed open arrow
 * Generators with a domain specific language to draw them:
     * http://sequencediagram.org/
     * https://www.websequencediagrams.com/
+    * https://knsv.github.io/mermaid/#activations
     * https://bramp.github.io/js-sequence-diagrams/
         * [GitHub project](https://github.com/bramp/js-sequence-diagrams)
         > A simple javascript library to turn text into vector UML sequence diagrams. Heavily inspired by websequencediagrams.com, who offer a serverside solution. We use Jison to parse the text, and Snap.svg to draw the image.
