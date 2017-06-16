@@ -16,6 +16,8 @@ D-->>A: Dashed open arrow
 * Generators with a domain specific language to draw them:
     * http://sequencediagram.org/
     * https://www.websequencediagrams.com/
-        * Seems like the tech from this [GitHub project](https://github.com/bramp/js-sequence-diagrams) may be in use because its [GitHub Page](https://bramp.github.io/js-sequence-diagrams/) matches the visuals on `websequencediagrams.com`, very closely.
+    * https://bramp.github.io/js-sequence-diagrams/
+        * [GitHub project](https://github.com/bramp/js-sequence-diagrams)
+        > A simple javascript library to turn text into vector UML sequence diagrams. Heavily inspired by websequencediagrams.com, who offer a serverside solution. We use Jison to parse the text, and Snap.svg to draw the image.
 * GitBook plugins for generating sequence diagrams:
     * https://github.com/gmassanek/gitbook-plugin-js-sequence-diagram
