@@ -16,6 +16,6 @@ D-->>A: Dashed open arrow
 * Generators with a domain specific language to draw them:
     * http://sequencediagram.org/
     * https://www.websequencediagrams.com/
-        * Seems like the tech from [this](https://bramp.github.io/js-sequence-diagrams/) GitHub project may be used by the site.
+        * Seems like the tech from this [GitHub project](https://github.com/bramp/js-sequence-diagrams) may be in use because its [GitHub Page](https://bramp.github.io/js-sequence-diagrams/) matches the visuals on `websequencediagrams.com`, very closely.
 * GitBook plugins for generating sequence diagrams:
     * https://github.com/gmassanek/gitbook-plugin-js-sequence-diagram
