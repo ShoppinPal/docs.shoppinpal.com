@@ -3,11 +3,11 @@
 ### What are they?
 
 ``` sequence
-Title: Here is a title
-A->B: Normal line
-B-->C: Dashed line
-C->>D: Open arrow
-D-->>A: Dashed open arrow
+Title: Current Architecture
+Browser->Webserver: Normal line
+Webserver-->Notifier: Dashed line
+Notifier->>Queue: Open arrow
+Queue-->>Worker: Dashed open arrow
 ```
 
 ### Resources
