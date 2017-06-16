@@ -13,7 +13,7 @@ D-->>A: Dashed open arrow
 ### Resources
 
 * [Visual Syntax for Sequence Diagrams](https://www.smartdraw.com/sequence-diagram/#sequenceDiagramNotations)
-* Online syntax based generators
+* Generators with a domain specific language to draw them:
     * http://sequencediagram.org/
     * https://www.websequencediagrams.com/
         * Seems like the tech from [this](https://bramp.github.io/js-sequence-diagrams/) GitHub project may be used by the site.
