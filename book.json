@@ -7,7 +7,7 @@
         "anchors",
         "ga",
         "rss",
-        "js-sequence-diagram"
+        "mermaid"
     ],
     "pluginsConfig": {
         "versions": {

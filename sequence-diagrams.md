@@ -2,13 +2,13 @@
 
 ### What are they?
 
-``` sequence
-Title: Current Architecture
-Browser->Webserver: Normal line
-Webserver-->Notifier: Dashed line
-Notifier->>Queue: Open arrow
-Queue-->>Worker: Dashed open arrow
-```
+{% mermaid %}
+graph TD;
+  A-->B;
+  A-->C;
+  B-->D;
+  C-->D;
+{% endmermaid %}
 
 ### Resources
 
