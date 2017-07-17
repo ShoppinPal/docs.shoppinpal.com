@@ -27,7 +27,12 @@ sudo apt-get --assume-yes install docker-engine && \
 echo "alias deleteContainers='docker rm \$(docker ps -a -q)'" >> ~/.bash_aliases && \
 echo "alias removeImages='docker rmi \$(docker images -f "dangling=true" -q)'" >> ~/.bash_aliases && \
 sudo service docker start && \
-curl -L "https://github.com/docker/compose/releases/download/1.8.1/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose && \
+LATEST=$(
+  curl -sSI https://github.com/docker/compose/releases/latest |
+    tr -d '\r' |
+    awk -F'/' '/^Location:/{print $NF}'
+) && \
+curl -L "https://github.com/docker/compose/releases/download/${LATEST}/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose && \
 chmod +x /usr/local/bin/docker-compose && \
 docker-compose --version
     ```
