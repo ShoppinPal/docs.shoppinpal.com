@@ -25,13 +25,28 @@
     ```
 1. Link the machine by copy/pasting the URL from the output window into your browser. Here's a sample of what you'll see:
 
-        ```
+    ```
     This client is not linked to any account...
     Please visit https://www.dropbox.com/cli_link?host_id=xxx
     to link this machine.
     ```
-1. Use `ctrl+c` to terminate the `dropboxd` process otherwise it will start syncing everything in your dropbox account immediately, which will create problems if your remote machine doesn't have enough space!
-1. 
+1. Once you see the following output:
+
+    ```
+    This computer is now linked to Dropbox. Welcome xxx
+    ```
+    Use `ctrl+c` to terminate the `dropboxd` process otherwise it will start syncing everything in your dropbox account immediately, which will create problems if your remote machine doesn't have enough space!
+    * If you are slow to take action, do not worry, this can be easily corrected ... but the important thing is that you stop it sooner rather than later.
+1. Download the `dropbox.py` command-line tool so we may tell `dropboxd` to avoid syncing anything other than our code/projects.
+
+    ```
+    mkdir -p ~/bin && \
+    wget -O ~/bin/dropbox.py "http://www.dropbox.com/download?dl=packages/dropbox.py" && \
+    chmod 755 ~/bin/dropbox.py && \
+    ~/bin/dropbox.py help
+    ```
+1. blah
+
 
 #### Other References
 * https://github.com/jolantis/digitalocean-droplet-install-guide#setup-dropbox-sync
