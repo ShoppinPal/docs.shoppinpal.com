@@ -20,8 +20,10 @@
 
     ```
     cd ~ && \
-    wget -O - "https://www.dropbox.com/download?plat=lnx.x86_64" | tar xzf - && \
-    ~/.dropbox-dist/dropboxd
+    curl -Lo dropbox-linux-x86_64.tar.gz https://www.dropbox.com/download?plat=lnx.x86_64 && \
+    sudo mkdir -p /opt/dropbox && \
+    sudo tar xzfv dropbox-linux-x86_64.tar.gz --strip 1 -C /opt/dropbox && \
+    /opt/dropbox/dropboxd
     ```
 1. Link the machine by copy/pasting the URL from the output window into your browser. Here's a sample of what you'll see:
 
@@ -45,8 +47,11 @@
     chmod 755 ~/bin/dropbox.py && \
     ~/bin/dropbox.py help
     ```
-1. Switch to your `Dropbox` directory and exclude any files that it has begun syncing: `cd ~/Dropbox/ && ~/bin/dropbox.py exclude add *`
-    1. Check the status: `~/bin/dropbox.py status`
+1. Switch to your `Dropbox` directory and exclude any files that it has begun syncing: 
+    ```
+    cd ~/Dropbox/ && ~/bin/dropbox.py exclude add *
+    ```
+1. Check the status: `~/bin/dropbox.py status`
     1. If its still trying to sync then every few minutes, rerun: `cd ~/Dropbox/ && ~/bin/dropbox.py exclude add *`
     1. Keep running the status check again too: `~/bin/dropbox.py status`
     1. After the status check declares: `Up to date`
