@@ -14,7 +14,6 @@
         * [Dropbox](setup-a-machine-in-the-cloud/setup-box/shared-filesystem/dropbox.md)
         * [sshfs](setup-a-machine-in-the-cloud/setup-box/shared-filesystem/sshfs.md)
       * [Long Running Sessions](long-running-sessions.md)
-    * [What's Remaining?](what-is-remaining.md)
     * [Feedback](feedback.md)
 * [2. Learning Git](learning-git.md)
   * [Static Code Analysis](learning-git/static-code-analysis.md)
@@ -89,3 +88,4 @@
   * [Project Sync via IDE](configuring-webstorm/README.md)
     * [SFTP with WebStorm](configuring-webstorm/sftp-with-webstorm.md)
     * [SFTP with Visual Studio](configuring-webstorm/sftp-with-visual-studio.md)
+
