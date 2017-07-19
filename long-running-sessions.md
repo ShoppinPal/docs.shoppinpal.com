@@ -26,4 +26,41 @@ Using solutions like `screen` or `mosh` can help workaround `ssh` hang-ups which
         * You can then use the arrows to scroll around the window. To get out of scrolling you can use `CTRL+C`
     * `Ctrl + A, ESC` and then vim-like commands: `Ctrl + u or Ctrl + d`
     * You can [modify](http://slaptijack.com/system-administration/mac-os-x-terminal-and-gnu-screen-scrollback/) `.screenrc` to allow mouse-based scrollback.
+        ```
+        # added on july 19 2017 by pulkit
+        # after editing the source from: https://gist.github.com/ChrisWills/1337178
+        
+        # GNU Screen - main configuration file
+        # All other .screenrc files will source this file to inherit settings.
+        # Author: Christian Wills - cwills.sys@gmail.com
+        
+        # Allow bold colors - necessary for some reason
+        attrcolor b ".I"
+        
+        # Tell screen how to set colors. AB = background, AF=foreground
+        termcapinfo xterm 'Co#256:AB=\E[48;5;%dm:AF=\E[38;5;%dm'
+        
+        # Enables use of shift-PgUp and shift-PgDn
+        termcapinfo xterm|xterms|xs|rxvt ti@:te@
+        
+        # Erase background with current bg color
+        defbce "on"
+        
+        # Enable 256 color term
+        term xterm-256color
+        
+        # Cache 999999 lines for scroll back
+        defscrollback 999999
+        
+        hardstatus alwayslastline
+        
+        # Very nice tabbed colored hardstatus line
+        hardstatus string '%{= Kd} %{= Kd}%-w%{= Kr}[%{= KW}%n %t%{= Kr}]%{= Kd}%+w %-= %{KG} %H%{KW}|%{KY}%101`%{KW}|%D %M %d %Y%{= Kc} %C%A%{-}'
+        
+        # Hide hardstatus: ctrl-a f
+        bind f eval "hardstatus ignore"
+        
+        # Show hardstatus: ctrl-a F
+        bind F eval "hardstatus alwayslastline"
+        ```
 
