@@ -80,3 +80,5 @@
 
 #### Other References
 * https://github.com/jolantis/digitalocean-droplet-install-guide#setup-dropbox-sync
+* http://www.dropboxwiki.com/tips-and-tricks/using-the-official-dropbox-command-line-interface-cli#EXCLUDE
+* http://www.dropboxwiki.com/tips-and-tricks/install-dropbox-in-an-entirely-text-based-linux-environment#Post-installation
