@@ -35,9 +35,9 @@
     ```
     This computer is now linked to Dropbox. Welcome xxx
     ```
-    Use `ctrl+c` to terminate the `dropboxd` process otherwise it will start syncing everything in your dropbox account immediately, which will create problems if your remote machine doesn't have enough space!
-    * If you are slow to take action, do not worry, this can be easily corrected ... but the important thing is that you stop it sooner rather than later.
-1. Download the `dropbox.py` command-line tool so we may tell `dropboxd` to avoid syncing anything other than our code/projects.
+    1. Leave the terminal window with `dropboxd` running in the foreground, as-is.
+        * NOTE: `dropboxd` will start syncing everything in your dropbox account immediately, the next few steps will work to correct this behaviour.
+1. Open a new `ssh` session with your remote machine and download the `dropbox.py` command-line tool so we may tell `dropboxd` to avoid syncing anything other than our code/projects.
 
     ```
     mkdir -p ~/bin && \
@@ -45,8 +45,14 @@
     chmod 755 ~/bin/dropbox.py && \
     ~/bin/dropbox.py help
     ```
-1. blah
-
+1. Switch to your `Dropbox` directory and exclude any files that it has begun syncing: `cd ~/Dropbox/ && ~/bin/dropbox.py exclude add *`
+    1. Check the status: `~/bin/dropbox.py status`
+    1. If its still trying to sync then every few minutes, rerun: `cd ~/Dropbox/ && ~/bin/dropbox.py exclude add *`
+    1. Keep running the status check again too: `~/bin/dropbox.py status`
+    1. After the status check declares: `Up to date`
+        * Run this command one last time to be sure: `cd ~/Dropbox/ && ~/bin/dropbox.py exclude add *`
+    1. Now the contents of your `Dropbox` directory should be empty: `cd ~/Dropbox/ && ls`
+1. Now that we've excluded everything known to us, we can place any new code-related projects & folders into dropbox for sync.
 
 #### Other References
 * https://github.com/jolantis/digitalocean-droplet-install-guide#setup-dropbox-sync
