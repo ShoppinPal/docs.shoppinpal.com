@@ -79,6 +79,7 @@
 1. tbd
 
 #### Other References
+* https://www.digitalocean.com/community/tutorials/how-to-install-dropbox-client-as-a-service-on-ubuntu-14-04
 * https://www.dropbox.com/install-linux
 * https://github.com/jolantis/digitalocean-droplet-install-guide#setup-dropbox-sync
 * http://www.dropboxwiki.com/tips-and-tricks/using-the-official-dropbox-command-line-interface-cli#EXCLUDE
