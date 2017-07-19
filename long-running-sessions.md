@@ -22,7 +22,7 @@ Using solutions like `screen` or `mosh` can help workaround `ssh` hang-ups which
 * How do I find my current `screen` session's name?
     * `echo $STY`
 * How do I kill a `screen` session?
-    * `screen -X -S SESSION_ID quit`
+    * `screen -X -S <SESSION_ID> quit`
 * How do I kill my current `screen` session?
     ```
     screen -X -S `echo -n $STY` quit
