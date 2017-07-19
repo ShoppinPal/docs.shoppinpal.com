@@ -52,7 +52,21 @@
     1. After the status check declares: `Up to date`
         * Run this command one last time to be sure: `cd ~/Dropbox/ && ~/bin/dropbox.py exclude add *`
     1. Now the contents of your `Dropbox` directory should be empty: `cd ~/Dropbox/ && ls`
-1. Now that we've excluded everything known to us, we can place any new code-related projects & folders into dropbox for sync.
+1. Now that we've excluded everything known to us, you can place any new code-related projects & folders into dropbox and they will sync between.
+    * https://www.digitalocean.com/community/questions/dropbox-works-with-digitalocean-droplets
+        > You probably don't want to host content out of your Dropbox folder, but there's a basic trick for mirroring Dropbox content outside of the Dropbox folder: create a symbolic link.
+
+        > Example: ln -s /var/www/foo.com ~/Dropbox/foo.com
+
+        > This will cause Dropbox to treat /var/www/foo.com as if it resided inside the Dropbox folder. All other clients will see foo.com as a folder within the Dropbox folder, and will transparently sync across that symlink.
+1. We cannot count on keeping our first ssh session alive forever to run `dropboxd` so let's [set it up as a service](https://www.digitalocean.com/community/tutorials/how-to-install-dropbox-client-as-a-service-on-ubuntu-14-04#set-up-service-script)
+
+        ```
+    cd ~ && \
+    sudo curl -o /etc/init.d/dropbox https://gist.githubusercontent.com/thisismitch/d0133d91452585ae2adc/raw/699e7909bdae922201b8069fde3011bbf2062048/dropbox && \
+    sudo chmod +x /etc/init.d/dropbox
+    ```
+1. tbd
 
 #### Other References
 * https://github.com/jolantis/digitalocean-droplet-install-guide#setup-dropbox-sync
