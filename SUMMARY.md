@@ -13,9 +13,7 @@
       * [Shared FileSystem](setup-a-machine-in-the-cloud/setup-box/shared-filesystem.md)
         * [Dropbox](setup-a-machine-in-the-cloud/setup-box/shared-filesystem/dropbox.md)
         * [sshfs](setup-a-machine-in-the-cloud/setup-box/shared-filesystem/sshfs.md)
-    * [Setup IDE](configuring-webstorm/README.md)
-      * [SFTP with WebStorm](configuring-webstorm/sftp-with-webstorm.md)
-      * [SFTP with Visual Studio](configuring-webstorm/sftp-with-visual-studio.md)
+      * [Long Running Sessions](long-running-sessions.md)
     * [What's Remaining?](what-is-remaining.md)
     * [Feedback](feedback.md)
 * [2. Learning Git](learning-git.md)
@@ -88,4 +86,6 @@
   * [nvm](nvm.md)
   * [Unify testing with npm](unify-testing-with-npm.md)
   * [Sequence Diagrams](sequence-diagrams.md)
-
+  * [Project Sync via IDE](configuring-webstorm/README.md)
+    * [SFTP with WebStorm](configuring-webstorm/sftp-with-webstorm.md)
+    * [SFTP with Visual Studio](configuring-webstorm/sftp-with-visual-studio.md)

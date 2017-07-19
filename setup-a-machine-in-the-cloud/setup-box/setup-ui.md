@@ -2,7 +2,7 @@
 
 ## Setup box
 
-### Setup UI
+### Setup UI (this page is under construction)
 
 A machine running in the cloud can be called `headless`, it means that it has no UI for you to interact with it, only ssh terminal.
 
