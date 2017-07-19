@@ -76,7 +76,12 @@
     sudo service dropbox start
     ```
     * As a safety measure, I [forked](https://gist.github.com/pulkitsinghal/b7d9230e6ef398bce307468e849baf27) `thisismitch`'s gist in case it ever gets taken down.
-1. tbd
+1. As a convenience, on your remote box, you can edit `~/.bashrc` to add an alias:
+    ```
+    # added on jul 18 2017 by pulkit
+    alias dropbox='~/bin/dropbox.py'
+    ```
+    this will let you use shorthand like `dropbox status` instead of `~/bin/dropbox.py status`
 
 #### Other References
 * https://www.digitalocean.com/community/tutorials/how-to-install-dropbox-client-as-a-service-on-ubuntu-14-04
