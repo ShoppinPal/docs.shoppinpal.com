@@ -75,6 +75,7 @@
     sudo update-rc.d dropbox defaults && \
     sudo service dropbox start
     ```
+    * As a safety measure, I [forked](https://gist.github.com/pulkitsinghal/b7d9230e6ef398bce307468e849baf27) `thisismitch`'s gist in case it ever taken down.
 1. tbd
 
 #### Other References
