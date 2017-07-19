@@ -21,6 +21,12 @@ Using solutions like `screen` or `mosh` can help workaround `ssh` hang-ups which
         * otherwise, the output will be empty
 * How do I find my current `screen` session's name?
     * `echo $STY`
+* How do I kill a `screen` session?
+    * `screen -X -S SESSION_ID quit`
+* How do I kill my current `screen` session?
+    ```
+    screen -X -S `echo -n $STY` quit
+    ```
 * How do I [scroll](http://serverfault.com/questions/206303/how-to-scroll-back-in-screen-within-a-ssh-session-from-os-x)?
     * Inside the `screen` session you can use: `CTRL+A (release), [`
         * You can then use the arrows to scroll around the window. To get out of scrolling you can use `CTRL+C`
