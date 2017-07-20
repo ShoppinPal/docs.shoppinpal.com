@@ -82,6 +82,45 @@
     alias dropbox='~/bin/dropbox.py'
     ```
     this will let you use shorthand like `dropbox status` instead of `~/bin/dropbox.py status`
+1. If you code using dropbox for sync long enough, you will run into an issue where dropbox will either crash or hang or both because of a limit on maximum number of files it can monitor for changes.
+    * If you are lucky then the logs will magically pop-up on your console stating:
+
+        ```
+        Unable to monitor entire Dropbox folder hierarchy. Please run "echo fs.inotify.max_user_watches=100000 | sudo tee -a /etc/sysctl.conf; sudo sysctl -p" and restart Dropbox to fix the problem.
+        Unable to monitor entire Dropbox folder hierarchy. Please run "echo fs.inotify.max_user_watches=100000 | sudo tee -a /etc/sysctl.conf; sudo sysctl -p" and restart Dropbox to fix the problem.
+        ```
+    * You can protect against this by [understanding](https://stackoverflow.com/questions/35711897/dropbox-fs-inotify-error) what is going on. For example I found out that I had provided significantly less resources than what dropbox recommends!
+
+        ```
+        # how many watchers have been made available?
+        $ cat /proc/sys/fs/inotify/max_user_watches
+        8192
+        
+        # how many watchers have been made available?
+        $ sysctl fs.inotify.max_user_watches
+        fs.inotify.max_user_watches = 8192
+        ```
+    * Or you could simply go ahead and make the fix:
+        ```
+        # 1. increase the number of watchers
+        $ echo fs.inotify.max_user_watches=100000 | sudo tee -a /etc/sysctl.conf; sudo sysctl -p
+        # 2. stop dropbox daemon if its running
+        $ ~/bin/dropbox.py stop
+        # 3. start the daemon again
+        $ /opt/dropbox/dropboxd &
+
+        # 4. check the status, it should start humming along again, soon:
+        $ dropbox status
+        Syncing (22,758 files remaining)
+        Indexing 21,025 files...
+        Uploading 1,729 files...
+        
+        $ dropbox status
+        Syncing (21,995 files remaining)
+        Indexing 19,825 files...
+        Uploading 2,166 files...
+        ```
+    * You're welcome ;)
 
 #### Other References
 * https://www.digitalocean.com/community/tutorials/how-to-install-dropbox-client-as-a-service-on-ubuntu-14-04
