@@ -32,7 +32,7 @@
     Please visit https://www.dropbox.com/cli_link?host_id=xxx
     to link this machine.
     ```
-1. Once you see the following output:
+1. Once you are done linking, you will see the following output:
 
     ```
     This computer is now linked to Dropbox. Welcome xxx
