@@ -37,7 +37,7 @@ It is worth exploring these pre-existing repositories:
          - ./docker-entrypoint-gitbook.sh:/apps/docker-entrypoint-gitbook.sh
        entrypoint: /apps/docker-entrypoint-gitbook.sh
    ```
-3. Add the following `docker-entrypoint.sh` file at the cloned repo's root folder:
+3. Add the following `docker-entrypoint-gitbook.sh` file at the cloned repo's root folder:
    ```
    #!/bin/bash
    #gitbook init
