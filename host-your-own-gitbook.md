@@ -40,7 +40,7 @@ It is worth exploring these pre-existing repositories:
 3. Add the following `docker-entrypoint.sh` file at the cloned repo's root folder:
    ```
    #!/bin/bash
-   gitbook init
+   #gitbook init
    gitbook serve --log=debug --debug
    #gitbook build --log=debug --debug
    ```
