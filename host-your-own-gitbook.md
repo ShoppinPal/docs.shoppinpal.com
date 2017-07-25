@@ -9,6 +9,9 @@ It is worth exploring these pre-existing repositories:
    2. [https://github.com/humangeo/gitbook-docker](https://github.com/humangeo/gitbook-docker)
 2. CI for build triggers and Gitbook all packaged neatly via `docker-compose.yml`
    1. [https://github.com/corncandy/docker-cluster](https://github.com/corncandy/docker-cluster)
+1. Others
+   * https://github.com/tobegit3hub/gitbook-server
+   * https://github.com/humangeo/gitbook-docker
 
 ## Quick Setup
 
