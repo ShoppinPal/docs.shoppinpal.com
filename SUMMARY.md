@@ -88,4 +88,5 @@
   * [Project Sync via IDE](configuring-webstorm/README.md)
     * [SFTP with WebStorm](configuring-webstorm/sftp-with-webstorm.md)
     * [SFTP with Visual Studio](configuring-webstorm/sftp-with-visual-studio.md)
+  * [Soft Linking](soft-linking.md)
 
