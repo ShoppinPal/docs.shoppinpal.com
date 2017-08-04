@@ -12,6 +12,7 @@
       * [Setup UI](setup-a-machine-in-the-cloud/setup-box/setup-ui.md)
       * [Shared FileSystem](setup-a-machine-in-the-cloud/setup-box/shared-filesystem.md)
         * [Dropbox](setup-a-machine-in-the-cloud/setup-box/shared-filesystem/dropbox.md)
+          * [Use locally developed node modules in another project](setup-a-machine-in-the-cloud/setup-box/shared-filesystem/dropbox/how-to-use-locally-developed-nodemodule.md)
         * [sshfs](setup-a-machine-in-the-cloud/setup-box/shared-filesystem/sshfs.md)
       * [Long Running Sessions](long-running-sessions.md)
     * [Feedback](feedback.md)
