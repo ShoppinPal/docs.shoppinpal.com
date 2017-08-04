@@ -40,4 +40,4 @@ service_name:
 - This mounts project1 inside the container `service_name`. You can go verify it by logging into the container machine once it is up and running. Here's the handy command `docker-compose run service_name /bin/bash`.
 - Once you enter the container machine, go see your code sync realtime at `/path/to/node_modules/project1`.
 
-You're welcome.
+You're welcome ;)
