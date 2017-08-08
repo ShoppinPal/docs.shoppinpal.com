@@ -89,6 +89,6 @@
     * [SFTP with WebStorm](configuring-webstorm/sftp-with-webstorm.md)
     * [SFTP with Visual Studio](configuring-webstorm/sftp-with-visual-studio.md)
   * [Soft Linking](soft-linking.md)
-  * [NodeJS Profiling](nodejs-profiling.md)
-  * [ How to find node.js performance optimization killers](how-to-find-node.js-performance-killers.md)
+  * [NodeJS Profiling](appendix/nodejs-profiling/README.md)
+    * [How to find node.js performance optimization killers](appendix/nodejs-profiling/how-to-find-node.js-performance-killers.md)
 
