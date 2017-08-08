@@ -7,14 +7,16 @@ If possible, do yourself a favor and test your code to make sure it works with N
     
 ## Profiling
 
+`node --inspect --debug-brk server/server.js`
 ### Memory
 
-1. expose port 9229 and start your `web` service
-    ```
-    dc up -d web && \
-        dc logs --follow --timestamps web
-    ```
-2. connect with `chrome://inspect/#devices`
-3. take a snapshot
-4. run requests against web server or your one-time nodejs code
-5. took another snapshot
+1. expose port 9229 if using docker
+1. and start your code: `node --inspect --debug-brk myCode.js`
+    1. it will output a url to connect with `chrome://inspect/#devices`, go ahead and copy/paste that URL into chrome
+1. under the `sources`tab, place breakpoints where ever you want ... then hit play to let the code run
+    * Your code starts in "paused" mode because of `--debug-brk`
+1. take a snapshot, then:
+    1. either, run requests against web server to cause load
+    2. or, simply let your one-time nodejs code run until it hits a breakpoint
+1. take another snapshot
+1. compare heap snapshots in chrome devtools

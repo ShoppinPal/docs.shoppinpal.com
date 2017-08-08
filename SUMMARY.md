@@ -73,7 +73,6 @@
 * [Appendix](appendix.md)
   * [Bug in WebStorm deployments](bug-in-webstorm-deployments.md)
   * [The Perfect Terminal](iterm.md)
-  * [ How to find node.js performance optimization killers](how-to-find-node.js-performance-killers.md)
   * [Scalable App Deployment with AWS](scalable-app-deployment-with-aws.md)
   * [Chrome Tips & Tricks](chrome-tips--tricks.md)
   * [Host your own Gitbook](host-your-own-gitbook.md)
@@ -91,4 +90,5 @@
     * [SFTP with Visual Studio](configuring-webstorm/sftp-with-visual-studio.md)
   * [Soft Linking](soft-linking.md)
   * [NodeJS Profiling](nodejs-profiling.md)
+  * [ How to find node.js performance optimization killers](how-to-find-node.js-performance-killers.md)
 
