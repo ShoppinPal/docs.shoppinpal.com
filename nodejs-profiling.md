@@ -7,7 +7,6 @@ If possible, do yourself a favor and test your code to make sure it works with N
     
 ## Profiling
 
-`node --inspect --debug-brk server/server.js`
 ### Memory
 
 1. expose port 9229 if using docker

@@ -70,7 +70,7 @@
   * [Gearman](queues-and-workers/gearman.md)
 * [10. Docker](docker.md)
   * [Capabilities](docker/capabilities.md)
-* [Appendix](appendix.md)
+* [Appendix](appendix/README.md)
   * [Bug in WebStorm deployments](bug-in-webstorm-deployments.md)
   * [The Perfect Terminal](iterm.md)
   * [Scalable App Deployment with AWS](scalable-app-deployment-with-aws.md)
