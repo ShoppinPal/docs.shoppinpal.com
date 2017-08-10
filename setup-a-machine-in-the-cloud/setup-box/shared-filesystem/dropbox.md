@@ -58,6 +58,7 @@
         * Run this command one last time to be sure: `cd ~/Dropbox/ && ~/bin/dropbox.py exclude add *`
     1. Now the contents of your `Dropbox` directory should be empty: `cd ~/Dropbox/ && ls`
     1. Feel free to take a look at everything which has been excluded: `~/bin/dropbox.py exclude list`
+    1. If the directory you want to sync is also excluded, then remove it from exclude list by `~/bin/dropbox.py exclude remove [DIRECTORY] [DIRECTORY]`
 1. Now that we've excluded everything known to us, you can place any new code-related projects & folders into dropbox and they will sync between.
     * https://www.digitalocean.com/community/questions/dropbox-works-with-digitalocean-droplets
         > You probably don't want to host content out of your Dropbox folder, but there's a basic trick for mirroring Dropbox content outside of the Dropbox folder: create a symbolic link.
