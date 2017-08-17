@@ -83,7 +83,7 @@
   * [Authentication Principles](authentication-principles.md)
   * [Mac](mac.md)
   * [nvm](nvm.md)
-  * [Unify testing with npm](unify-testing-with-npm.md)
+  * [Unify testing with npm](unify-testing-with-npm/README.md)
   * [Sequence Diagrams](sequence-diagrams.md)
   * [Project Sync via IDE](configuring-webstorm/README.md)
     * [SFTP with WebStorm](configuring-webstorm/sftp-with-webstorm.md)
