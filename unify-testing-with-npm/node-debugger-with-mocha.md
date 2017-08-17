@@ -1,7 +1,7 @@
 # Using Node Debugger with Mocha
 
 ## Assumption
-With a package.json that has the following lines:
+Your package.json that has the following lines:
 ```
 scripts: {
     "mocha": "mocha"
