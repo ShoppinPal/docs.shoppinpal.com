@@ -49,6 +49,7 @@
   * [End-2-End Testing](end-2-end-testing.md)
   * [Angular 1.x](angular-1x.md)
   * [Angular 2](angular2.md)
+    * [Testing](angular2/testing.md)
 * [6. ElasticSearch](elasticsearch-es.md)
   * [Better Search with NGram](better-search-with-ngram.md)
   * [NGram with Elasticsearch](ngram-with-elasticsearch.md)
