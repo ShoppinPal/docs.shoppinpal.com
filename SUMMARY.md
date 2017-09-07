@@ -80,6 +80,7 @@
   * [Gitbook Tips & Tricks](gitbook-tips-and-tricks.md)
   * [How to handle support incidents](how-to-handle-support-incidents.md)
   * [Dev Resources](dev-resources.md)
+  * [Debug e2e Tests on CircleCI ](debug-e2e-tests-on-circleci.md)
   * [Logging](logging.md)
   * [Authentication Principles](authentication-principles.md)
   * [Mac](mac.md)
