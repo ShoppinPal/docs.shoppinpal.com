@@ -80,6 +80,7 @@
   * [Gitbook Tips & Tricks](gitbook-tips-and-tricks.md)
   * [How to handle support incidents](how-to-handle-support-incidents.md)
   * [Dev Resources](dev-resources.md)
+  * [Debug e2e Tests on CircleCI ](debug-e2e-tests-on-circleci.md)
   * [Logging](logging.md)
   * [Authentication Principles](authentication-principles.md)
   * [Mac](mac.md)
@@ -93,5 +94,4 @@
   * [Soft Linking](soft-linking.md)
   * [NodeJS Profiling](appendix/nodejs-profiling/README.md)
     * [How to find node.js performance optimization killers](appendix/nodejs-profiling/how-to-find-node.js-performance-killers.md)
-* [Debug e2e Tests on CircleCI ](debug-e2e-tests-on-circleci.md)
 
