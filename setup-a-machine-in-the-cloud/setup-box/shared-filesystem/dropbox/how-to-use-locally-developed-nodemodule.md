@@ -1,4 +1,4 @@
-#Use locally used node module in another project
+#Use locally developed node module in another project
 
 ##Prerequisite
 - Docker
