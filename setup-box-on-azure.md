@@ -1,6 +1,6 @@
 # Setup a machine in the cloud
 
-## Setup box
+## Setup box on Azure
 
 1. Login to Azure. You can use a personal account or request access to your company account. Ask your company's devops team for a terraform script to accomplish this in minutes.
 1. Optionally, we recommend that you map your `<machine-ip>` to a friendly domain name like `<myName-cloud-box-1.domain.com>`
