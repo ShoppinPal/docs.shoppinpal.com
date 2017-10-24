@@ -61,3 +61,4 @@ docker-compose up
         1. ultimately restart your machine and that should definitely do it.
 1. Let's browse to `http://<machine-ip>:3000/explorer` to see a fully working REST~ful API!
     1. If you had setup a DNS record previously then you can also try: `http://<myName-cloud-box-1.domain.com>:3000/explorer` to see a fully working REST~ful API!
+    2. If all the containers are up and you are still not able to access the application from browser, then make sure you have enabled inbound/outbound security rules on your remote host.
