@@ -14,6 +14,7 @@
     * Tools like `SourceTree` can simply deal with our local filesystem without any knowledge of the remote filesystem.
 1. Install Dropbox agent
     * `sudo apt install nautilus-dropbox`
+    * `echo "export LC_ALL=en_US.UTF-8 && export LANG=en_US.UTF-8" >> ~/.bashrc && source ~/.bashrc`
 1. Run `dropbox start -i` to install the daemon
 1. It will get stuck because it's not showing you the logs which give the URL for linking your account
     ```
