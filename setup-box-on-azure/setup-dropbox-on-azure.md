@@ -39,7 +39,7 @@
     1. you MUST NOT stop or kill the process while you are linking your account in the browser
     1. eventually the logs will give you a welcome message indicating that account linking its done
     ```
-    $ /home/pulkit/.dropbox-dist/dropboxd
+    $ /home/{USER}/.dropbox-dist/dropboxd
     ...
     Please visit https://www.dropbox.com/cli_link_nonce?nonce=secret to link this device.
     This computer isn't linked to any Dropbox account...
