@@ -13,6 +13,8 @@ Using solutions like `screen` or `mosh` can help workaround `ssh` hang-ups which
         * will start a screen session with a random name
 * How do I list any pre-existing `screen` sessions?
     * `screen -ls`
+* How to I re-attach or re-join a previous session?
+    * `screen -r previous_session_name`
 * How do I rename a pre-existing `screen` session?
     * `screen -S old_session_name -X sessionname new_session_name`
 * How to [check](https://serverfault.com/questions/257975/how-to-check-if-im-in-screen-session) if I'm in a `screen` session?
