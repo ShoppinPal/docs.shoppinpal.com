@@ -15,6 +15,8 @@ Using solutions like `screen` or `mosh` can help workaround `ssh` hang-ups which
     * `screen -ls`
 * How to I re-attach or re-join a previous session?
     * `screen -r previous_session_name`
+* How do I force detach and then reattach a previous session?
+    * `screen -d -r previous_session_name`
 * How do I rename a pre-existing `screen` session?
     * `screen -S old_session_name -X sessionname new_session_name`
 * How to [check](https://serverfault.com/questions/257975/how-to-check-if-im-in-screen-session) if I'm in a `screen` session?
