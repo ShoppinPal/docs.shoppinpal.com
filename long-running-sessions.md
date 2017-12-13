@@ -11,6 +11,7 @@ Using solutions like `screen` or `mosh` can help workaround `ssh` hang-ups which
 * How do I start `screen`, during an active `ssh` session?
     * `screen`
         * will start a screen session with a random name
+        * `screen -S SESSIONNAME` is good for starting a session with a name
 * How do I list any pre-existing `screen` sessions?
     * `screen -ls`
 * How to I re-attach or re-join a previous session?
