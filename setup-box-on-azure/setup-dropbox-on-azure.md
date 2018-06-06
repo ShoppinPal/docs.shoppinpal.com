@@ -14,7 +14,6 @@
     * Tools like `SourceTree` can simply deal with our local filesystem without any knowledge of the remote filesystem.
 1. Install Dropbox agent
     * `sudo apt install nautilus-dropbox`
-        * If you ever need to uninstall use: `dropbox stop` and then `sudo apt-get remove --purge nautilus-dropbox`
     * `echo "export LC_ALL=en_US.UTF-8 && export LANG=en_US.UTF-8" >> ~/.bashrc && source ~/.bashrc`
 1. Run `dropbox start -i` to install the daemon
 1. It will get stuck because it's not showing you the logs which give the URL for linking your account
@@ -65,6 +64,14 @@
 
 ### Maintainence
 
+1. Uninstalling dropbox
+    * `dropbox stop`
+    * `sudo apt-get remove --purge nautilus-dropbox`
+    * `sudo find / -iname dropboxd`
+        * remove all the results, for ex: `rm -rf /home/${USER}/.dropbox-dist`
+    * `sudo find / -iname dropbox`
+        * `rm -rf /home/${USER}/Dropbox/.dropbox`
+        * `rm -rf /home/${USER}/Dropbox/.dropbox.cache`
 1. If you code using dropbox for sync long enough, you will run into an issue where dropbox will either crash or hang or both because of a limit on maximum number of files it can monitor for changes.
     * If you are lucky then the logs will magically pop-up on your console stating:
 
