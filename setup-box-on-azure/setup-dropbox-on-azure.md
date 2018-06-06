@@ -72,6 +72,7 @@
     * `sudo find / -iname dropbox`
         * `rm -rf /home/${USER}/Dropbox/.dropbox`
         * `rm -rf /home/${USER}/Dropbox/.dropbox.cache`
+    * Unlink the machine from your dropbox account by finding its device name at: `https://www.dropbox.com/account/security` and removing it.
 1. If you code using dropbox for sync long enough, you will run into an issue where dropbox will either crash or hang or both because of a limit on maximum number of files it can monitor for changes.
     * If you are lucky then the logs will magically pop-up on your console stating:
 
