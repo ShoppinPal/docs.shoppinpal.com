@@ -36,7 +36,7 @@
     Another instance of Dropbox (10537) is running!
     ```
 1. Now kill it: `kill 10537` ... change `10537` to be the PID you see in your screen, ofcourse!
-1  Now run it in foreground and you will get the account linking URL you need.
+1.  Now run it in foreground and you will get the account linking URL you need.
     1. copy/paste the url you see in the logs to your browser, follow the instructions
     1. you MUST NOT stop or kill the process while you are linking your account in the browser
     1. eventually the logs will give you a welcome message indicating that account linking its done
