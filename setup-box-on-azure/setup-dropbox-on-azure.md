@@ -22,9 +22,10 @@
     $ dropbox status
     Starting...
     ```
-1. Let's find the daemon:
+1. Let's find the daemon using: `sudo find / -iname dropboxd` ... here is an example output:
     ```
     $ sudo find / -iname dropboxd
+    
     /home/${USER}/.dropbox-dist/dropbox-lnx.x86_64-35.4.20/dropboxd
     /home/${USER}/.dropbox-dist/dropboxd
     ```
