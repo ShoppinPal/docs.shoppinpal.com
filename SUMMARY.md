@@ -96,4 +96,5 @@
   * [Soft Linking](soft-linking.md)
   * [NodeJS Profiling](appendix/nodejs-profiling/README.md)
     * [How to find node.js performance optimization killers](appendix/nodejs-profiling/how-to-find-node.js-performance-killers.md)
+  * [Setup Packer on Azure](setup-packer-on-azure.md)
 
