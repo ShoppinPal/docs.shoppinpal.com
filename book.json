@@ -2,6 +2,9 @@
     "gitbook": "3.2.2",
     "plugins": [
         "youtube",
+        "theme-gestalt", 
+        "-theme-default", 
+        "styles-sass-fix"        
         "googledocs",
         "editlink",
         "anchors",
@@ -21,6 +24,13 @@
         },
         "ga": {
             "token": "UA-96189107-1"
+        },
+        "googledocs": {
+        "rm": "minimal",
+        "frameborder": "0",
+        "width": "100%",
+        "height": "500px",
+        "noembed": "new window"
         },
         "rss": {
             "title": "The Ultimate Training Guide",
