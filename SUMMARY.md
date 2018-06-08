@@ -9,6 +9,7 @@
   * [Setup a machine in the cloud](setup-a-machine-in-the-cloud.md)
     * [Solution](solution.md)
     * [Setup box on Azure](setup-box-on-azure.md)
+      * [Test drive your remote machine](setup-box-on-azure/test-drive-your-remote-machine.md)
       * [Setup Dropbox On Azure](setup-box-on-azure/setup-dropbox-on-azure.md)
     * [Setup box on DigitalOcean](setup.md)
       * [Setup UI](setup-a-machine-in-the-cloud/setup-box/setup-ui.md)
