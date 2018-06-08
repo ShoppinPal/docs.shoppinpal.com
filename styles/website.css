@@ -7,8 +7,8 @@
 body {
     font-family: Ubuntu;
     margin: 2rem;
-    font-size: 2rem;
-    color:red;
+    font-size: 1.5rem;
+    color:orange;
 }
 
 /* Show keybindings to look like keys on a keyboard */
