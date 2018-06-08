@@ -6,10 +6,12 @@
     1. You can use a personal account to do this, or
     2. request access to your company's account, or
     3. ask your company's devops team to do this on your behalf.
-1. Optionally, we recommend that you map your `<machine-ip>` to a friendly domain name like `<myName-cloud-box-1.domain.com>`
-    1. If you have a CloudFlare account, use it.
-    1. **Configure cloudflare for DNS only. Bypass any HTTP related CDN.**
-    1. This may take some time to take effect and will hopefully be ready for you to use by the time you finish rest of the steps.
+1. After the new machine is ready, make sure:
+    1. You know its IP address.
+    1. _Optionally_, we recommend that you map your `<machine-ip>` to a friendly domain name like `<myName-cloud-box-1.domain.com>`
+        1. If you have a CloudFlare account, use it.
+        1. **Configure cloudflare for DNS only. Bypass any HTTP related CDN.**
+        1. This may take some time to take effect and will hopefully be ready for you to use by the time you finish rest of the steps.
 1. Use `ssh` to login:
     1. either: `ssh <username>@<machine-ip>`
     1. or: `ssh <username>@<myName-cloud-box-1.domain.com>`
