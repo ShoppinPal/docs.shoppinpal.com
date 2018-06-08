@@ -3,8 +3,6 @@
 	"plugins": [
 		"youtube",
 		"theme-gestalt",
-		"-theme-default",
-		"styles-sass-fix",
 		"googledocs",
 		"editlink",
 		"anchors",
