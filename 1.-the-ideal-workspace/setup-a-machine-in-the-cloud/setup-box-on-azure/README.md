@@ -2,7 +2,7 @@
 
 ## Setup box on Azure
 
-1. Login to Azure and [create a machine](https://shoppinpal.gitbook.io/docs-shoppinpal-com/~/edit/drafts/-LIEPfiso_7iB9aIXIZ0/1.-the-ideal-workspace/setup-a-machine-in-the-cloud/setup-box-on-azure/create-a-machine-on-azure)
+1. Login to Azure and [create a machine](https://shoppinpal.gitbook.io/docs-shoppinpal-com/1.-the-ideal-workspace/setup-a-machine-in-the-cloud/setup-box-on-azure/create-a-machine-on-azure)
    1. You can use a personal account to do this, or
    2. request access to your company's account, or
    3. ask your company's devops team to do this on your behalf.
