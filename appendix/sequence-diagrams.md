@@ -8,6 +8,7 @@
 * Generators with a domain specific language to draw them:
   * [http://sequencediagram.org/](http://sequencediagram.org/)
   * [https://www.websequencediagrams.com/](https://www.websequencediagrams.com/)
+  * [https://www.gleek.io/](https://www.gleek.io/)
   * \[WINNER\] Mermaid: [https://knsv.github.io/mermaid/\#activations](https://knsv.github.io/mermaid/#activations)
   * [https://bramp.github.io/js-sequence-diagrams/](https://bramp.github.io/js-sequence-diagrams/)
     * [GitHub project](https://github.com/bramp/js-sequence-diagrams)
